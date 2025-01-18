@@ -1,0 +1,654 @@
+Web Dev Cohort 1.0 (Chai Aur Code)
+
+Phase 0: Web Warriors ⚔️
+Objective: Learn the building blocks of the web, how the internet works, and how the protocols make communication happen.
+
+1. How the Internet Works
+Introduction to the concept of the Internet
+Overview of the World Wide Web (WWW) and its connection to the internet
+How data is transferred across networks
+Understanding IP addresses, domain names, and routing
+Key Concepts: Internet Service Providers (ISPs), Routers, DNS
+2. DNS Magic and Internals
+What is DNS (Domain Name System)?
+How DNS resolves domain names to IP addresses
+Types of DNS records: A, CNAME, MX, and more
+DNS Hierarchy: Root DNS servers, TLDs, and authoritative DNS servers
+How browsers query DNS servers to load websites
+Key Concepts: Recursive queries, Caching, TTL (Time-to-Live)
+3. Server-Client Architecture
+What is a Client-Server model?
+Differences between Client and Server in web applications
+HTTP request-response cycle
+How browsers act as clients that request resources from web servers
+Introduction to web servers and web hosting
+Key Concepts: Web servers (Apache, Nginx), Client-side vs Server-side, Request headers, Response codes
+4. Internet Protocols
+Introduction to network protocols: What are they, and why are they needed?
+The role of protocols in ensuring data transfer integrity and reliability
+4.1. TCP/IP
+What is TCP/IP and why it is fundamental for data transmission
+Overview of TCP (Transmission Control Protocol) and IP (Internet Protocol)
+How TCP handles data segmentation, error checking, and retransmission
+Key Concepts: IP addressing, Port numbers, Datagram transmission
+4.2. UDP (User Datagram Protocol)
+What is UDP, and how does it differ from TCP?
+Understanding when and why UDP is used (e.g., in video streaming or gaming)
+Comparison of TCP and UDP performance (reliability vs speed)
+Key Concepts: Datagram-based transmission, Low overhead, Connectionless communication
+5. TCP Handshakes and 3-Way Handshakes
+What is a 3-way handshake in TCP?
+Detailed breakdown of the 3 phases: SYN, SYN-ACK, and ACK
+The purpose of the handshake: Establishing a reliable connection
+How data is transmitted after the handshake is complete
+Key Concepts: Reliable connection establishment, Sequence numbers, Acknowledgments
+6. HTTP & HTTPS Protocols
+Introduction to HTTP (HyperText Transfer Protocol) and HTTPS (Secure version of HTTP)
+What happens during an HTTP request-response cycle?
+Understanding status codes: 200 OK, 404 Not Found, 500 Internal Server Error
+Introduction to SSL/TLS and how it secures data during transmission
+Key Concepts: Request methods (GET, POST, PUT, DELETE), HTTPS handshake, Certificate Authorities
+Phase 1: Spider-Man 🕸️
+Objective: Learn the foundations of web design by mastering HTML and CSS, creating the structure and styling that powers the web.
+
+1. HTML Basics – The Web’s Skeleton
+Introduction to HTML (HyperText Markup Language) and its role in web development
+Understanding HTML tags and elements
+Building a simple webpage using HTML: html, head, body, header, footer
+Working with text elements: h1, p, a, ul, ol, li
+Structuring content with semantic HTML: section, article, nav, main, aside
+Key Concepts: Elements, Tags, Nesting, Attributes, Semantic HTML
+2. HTML Forms and Inputs – User Interaction
+Creating forms with form, input, textarea, select, button
+Understanding form submission, GET and POST methods
+Using input types (text, email, number, password)
+Validating form data with attributes like required, min, max
+Key Concepts: Form elements, Input validation, Method types, Accessibility in forms
+3. CSS Basics – Styling the Web
+Introduction to CSS (Cascading Style Sheets) and its purpose
+Understanding the CSS box model: margin, border, padding, content
+Styling text, colors, and fonts with color, font-family, font-size, line-height
+Understanding the concept of specificity and how CSS selectors work
+Applying styles to HTML elements using selectors, classes, and IDs
+Key Concepts: Box model, Selectors, Specificity, Inline vs external CSS
+4. CSS Layouts – Building Responsive Pages
+Introduction to layout techniques in CSS: display, position, float, flexbox, grid
+Building layouts with Flexbox: Aligning items, creating rows and columns
+Introduction to CSS Grid: Creating complex grid-based layouts
+Media queries: Making websites responsive to different screen sizes
+Key Concepts: Flexbox, Grid layout, Responsive design, Mobile-first approach
+5. Advanced CSS Styling
+Using pseudo-classes and pseudo-elements: :hover, :focus, :nth-child
+Animations and transitions: Making elements move or change on user interaction
+Styling links, buttons, and forms for better UX
+Key Concepts: Pseudo-classes, Pseudo-elements, Animations, Transitions
+6. CSS Frameworks – Speeding Up Development
+Introduction to popular CSS frameworks: Bootstrap, TailwindCSS
+How to use a CSS framework to quickly style pages
+Customizing and overriding default styles in a framework
+Key Concepts: Grid systems, Utility-first design, Responsive frameworks
+7. HTML5 & CSS3 Features
+HTML5 semantic elements: header, footer, main, article, section
+New input types in HTML5: date, email, tel, range, color
+CSS3 properties: border-radius, box-shadow, gradient, transitions
+Key Concepts: Modern HTML5 elements, Advanced CSS3 techniques, Cross-browser compatibility
+Phase 2: JavaScript Surgeons 🧑🏻‍⚕️
+Objective: Master the fundamentals and advanced concepts of JavaScript, as well as the DOM, to become proficient in scripting dynamic web pages.
+
+1. JavaScript Basics – The Language of the Web
+Introduction to JavaScript and its role in web development
+Understanding variables and data types: string, number, boolean, object, array, null, undefined
+Declaring variables with var, let, const
+Understanding scope (Global, Local, Block Scope) and hoisting
+Basic operators: +, , , /, %, ==, ===
+Control flow statements: if, else, else if, switch, ternary operator
+Key Concepts: Variables, Data Types, Operators, Conditionals
+2. Functions – Building Blocks of JavaScript
+What is a function and why it’s essential in JavaScript
+Function declaration vs function expression
+Arrow functions and their syntax
+Understanding the return statement and function parameters
+Function scope and closures
+Key Concepts: Function declaration, Function expression, Arrow functions, Closures, Parameters, Return
+3. Arrays and Objects – Working with Data
+Creating and manipulating arrays: push, pop, shift, unshift, map, filter, reduce
+Understanding objects: properties, methods, and prototypes
+Accessing and modifying object properties
+Iterating over arrays and objects using loops (for, for...of, for...in)
+Key Concepts: Arrays, Objects, Loops, Array methods, Object methods
+4. Asynchronous JavaScript – Handling Time-sensitive Code
+What is asynchronous programming and why it’s important
+Using setTimeout and setInterval
+Introduction to callbacks and callback hell
+Promises: What they are, how to create and use them
+async and await for handling asynchronous code in a more readable way
+Key Concepts: Callbacks, Promises, Async/Await, setTimeout, setInterval
+5. JavaScript and the DOM – Interacting with the Browser
+What is the DOM (Document Object Model)?
+Accessing and modifying HTML elements with document.getElementById(), document.querySelector(), and document.querySelectorAll()
+Changing content using innerHTML, textContent, value
+Manipulating styles with style property and changing CSS dynamically
+Adding and removing elements with appendChild(), removeChild(), insertBefore()
+Key Concepts: DOM Manipulation, Querying elements, Modifying styles and content
+6. Event Handling – Making Web Pages Interactive
+Introduction to events in JavaScript: click, hover, keydown, submit, etc.
+Event listeners and attaching them using addEventListener()
+Understanding event bubbling and capturing
+Preventing default behavior and stopping propagation with event.preventDefault() and event.stopPropagation()
+Key Concepts: Event handling, Event listeners, Event propagation
+7. Object-Oriented JavaScript – Mastering Objects and Classes
+Introduction to object-oriented programming (OOP) in JavaScript
+Defining classes and objects in JavaScript
+Using constructors and this keyword
+Inheritance and the prototype chain
+Polymorphism and encapsulation
+Key Concepts: Classes, Objects, Constructors, Inheritance, Prototypes
+8. Advanced JavaScript Concepts – Deep Dive
+Understanding closures and lexical scoping
+Understanding the this keyword in different contexts
+JavaScript this binding and call, apply, and bind methods
+JavaScript modules and how to use import and export
+Error handling in JavaScript with try...catch and custom errors
+Key Concepts: Closures, this keyword, Binding, Modules, Error handling
+9. JavaScript ES6+ Features – Modern JavaScript Syntax
+Destructuring assignment for objects and arrays
+Template literals and string interpolation
+Default parameters, rest parameters, and spread syntax
+Introduction to Map, Set, WeakMap, WeakSet
+Key Concepts: ES6 syntax, Destructuring, Template literals, Spread/rest operators, Map & Set
+Phase 3: Node Ninja 🥷
+Objective: Master backend development with Node.js, learning how to create powerful server-side applications, handle HTTP requests, and connect with databases.
+
+1. Introduction to Node.js – The Power of JavaScript on the Server
+What is Node.js and how it differs from traditional server-side languages
+Understanding the Node.js runtime environment
+The event-driven, non-blocking I/O model in Node.js
+Setting up a simple Node.js application
+Installing and using Node.js with npm (Node Package Manager)
+Key Concepts: Event-driven architecture, Non-blocking I/O, npm, Modules
+2. Understanding the Event Loop – Node.js Architecture
+What is the event loop and how does Node.js handle concurrency
+How Node.js uses the event loop to process requests asynchronously
+Blocking vs Non-blocking code execution
+The importance of callbacks and promises in managing asynchronous code
+Key Concepts: Event loop, Asynchronous processing, Callbacks, Promises
+3. Creating a Basic HTTP Server
+How to create a basic HTTP server with Node.js using the http module
+Setting up routes to handle different HTTP requests (GET, POST, PUT, DELETE)
+Sending and receiving data with the server
+Working with request and response objects
+Key Concepts: HTTP server, Request/Response objects, Routing
+4. Express.js – Simplifying Backend Development
+Introduction to Express.js and how it simplifies Node.js backend development
+Setting up an Express app and defining routes
+Handling dynamic data with URL parameters and query strings
+Middleware in Express: What is middleware and how to use it
+Built-in Express middleware functions (e.g., body-parser, cookie-parser)
+Key Concepts: Express.js, Routing, Middleware, Request handling
+5. RESTful API Design – Building APIs with Express
+What is a RESTful API and how to structure it
+Designing endpoints and handling HTTP methods (GET, POST, PUT, DELETE)
+Using query parameters and request bodies for passing data
+Returning JSON data and handling status codes in API responses
+Key Concepts: REST API design, CRUD operations, Status codes, JSON responses
+6. Working with Databases – Connecting Node.js to Databases
+Introduction to databases (SQL vs NoSQL)
+Using MongoDB with Node.js (Setting up MongoDB, connecting via Mongoose)
+Working with CRUD operations in MongoDB (Create, Read, Update, Delete)
+Introduction to SQL databases (using MySQL/PostgreSQL with Node.js)
+Using ORMs (Object Relational Mappers) like Drizzle, Prisma to interact with SQL databases
+Key Concepts: MongoDB, SQL, NoSQL, CRUD, Mongoose, Sequelize, ORMs
+7. Authentication and Authorization – Securing Your Application
+Introduction to user authentication and authorization concepts
+Using JWT (JSON Web Tokens) for stateless authentication
+Setting up user login and registration endpoints
+Password hashing with bcrypt.js
+Role-based access control and securing routes with middleware
+Key Concepts: Authentication, Authorization, JWT, bcrypt, Role-based access control
+8. Working with File Systems – Reading and Writing Files
+Introduction to the Node.js fs module for file system operations
+Reading files asynchronously and synchronously
+Writing files to the server’s file system
+Handling file uploads (e.g., using multer for handling multipart forms)
+Key Concepts: File system module, File reading/writing, File uploads
+9. Building Real-time Applications – WebSockets with Socket.io
+What are WebSockets and how they enable real-time communication
+Setting up a WebSocket server using the ws module or Socket.io
+Sending and receiving real-time data between the client and server
+Use cases for real-time apps (e.g., chat applications, live notifications)
+Key Concepts: WebSockets, Real-time communication, Socket.io
+10. Deploying Your Node.js Application
+Introduction to deployment options for Node.js applications
+Deploying Node.js apps on cloud platforms (Heroku, AWS, DigitalOcean, etc.)
+Setting up environment variables for different environments (production, development)
+Configuring reverse proxies with Nginx or Apache
+Key Concepts: Deployment, Cloud services, Reverse proxies, Environment variables
+11. API Rate Limiting – Protecting Your Endpoints
+What is API rate limiting and why it's important
+Implementing rate limiting to prevent abuse of your APIs (e.g., using express-rate-limit)
+Configuring custom rate limiters for different endpoints
+Handling rate limit exceeded errors and responses
+Key Concepts: Rate limiting, Throttling, API protection, express-rate-limit
+12. Logging & Monitoring – Tracking Application Health
+Introduction to logging and monitoring in Node.js applications
+Using logging libraries like Winston and Morgan for structured logging
+Setting up logging levels (info, warn, error) and storing logs in files or external services
+Integrating monitoring tools like PM2 for process management and performance monitoring
+Key Concepts: Logging, Winston, Morgan, PM2, Monitoring, Application health
+13. GraphQL
+Introduction to GraphQL
+What is GraphQL and how it differs from REST
+GraphQL architecture: schema, queries, mutations, and subscriptions
+Setting up a GraphQL server with Apollo Server
+Writing simple GraphQL queries and mutations
+Writing GraphQL Queries, Mutations, and Subscriptions
+Creating complex queries and mutations
+Understanding resolvers and schema design
+Subscriptions for real-time data updates
+Handling errors in GraphQL
+14. Monitoring with PM2
+Introduction to PM2 for Node.js process management
+Setting up PM2 for application monitoring
+Auto-restarting Node.js apps on crashes
+Monitoring performance with PM2 logs and stats
+Log rotations
+Phase 4: React Alchemist 🧙🏻
+Objective: Master the art of building dynamic, interactive, and scalable web applications using React.js, Next.js, Tailwind CSS, ShadCN, and other modern technologies. Learn best practices, performance optimizations, and advanced patterns for building professional-grade React applications.
+
+1. Introduction to React – The Modern JavaScript Library
+What is React and why it’s the go-to library for building UIs
+Understanding the virtual DOM and how React improves performance
+Setting up a React project using create-react-app or Vite
+JSX: A syntax extension for JavaScript that allows writing HTML in JS
+Rendering elements and basic React components
+Key Concepts: React, JSX, Virtual DOM, Components
+2. Components and Props – The Building Blocks of React
+Understanding functional and class components
+Passing data between components using props
+How to use children and default props
+Breaking down UI into smaller reusable components
+Key Concepts: Components, Props, Reusability, State vs Props
+3. State Management – React's Core Mechanism
+Understanding state in React and how it drives component re-renders
+Managing state within functional components using useState
+Lifting state up to parent components for sharing data
+Conditional rendering based on component state
+Key Concepts: State, useState, Re-rendering, Lifting state up
+4. React Lifecycle Methods – Understanding Component Lifecycles
+Introduction to component lifecycle in class components
+Exploring React's lifecycle methods (e.g., componentDidMount, componentWillUnmount)
+Using useEffect hook for side effects in functional components
+How React’s lifecycle methods help manage data fetching, cleanup, and DOM manipulation
+Key Concepts: Lifecycle methods, useEffect, Mounting, Unmounting, Side effects
+5. Event Handling – Interactivity in React
+Handling events like clicks, form submissions, and user input
+Binding event handlers in React components
+Using event.preventDefault() and event.stopPropagation() for event flow control
+Creating controlled and uncontrolled form components
+Key Concepts: Event handling, Forms, event.preventDefault(), event.stopPropagation()
+6. React Hooks – Bringing Functionality to Components
+Introduction to React Hooks and their importance in functional components
+Using useState for state management and useEffect for side effects
+Exploring other hooks: useContext, useReducer, useCallback, useMemo
+Best practices for working with hooks
+Key Concepts: Hooks, useState, useEffect, useContext, useReducer, useCallback
+7. React Router – Navigating Between Pages
+Introduction to React Router for client-side routing
+Setting up React Router for multiple views (pages) in a single-page application (SPA)
+Using Link and Route to navigate between components
+Dynamic routing with URL parameters and query strings
+Key Concepts: React Router, Link, Route, Dynamic routing, SPA
+8. State Management with Context API – Global State for Your App
+What is the Context API and when to use it for global state management
+Creating a context, providing it, and consuming it in components
+Using useContext to access and update global state
+Avoiding prop drilling with the Context API
+Key Concepts: Context API, Global state, useContext, Prop drilling
+9. Forms in React – Building Dynamic Forms
+Controlled vs uncontrolled forms in React
+Handling form submissions and form validation
+Building complex forms with multiple input fields
+Using third-party libraries like Formik or React Hook Form for easier form management
+Key Concepts: Forms, Controlled inputs, Validation, Formik, React Hook Form
+10. Styling in React – From CSS to Styled Components
+Styling React components using traditional CSS, CSS Modules, and styled-components
+Introduction to CSS-in-JS libraries like Emotion and styled-components
+Managing responsive designs in React apps
+Best practices for CSS architecture in React (BEM, CSS Modules)
+Key Concepts: CSS, CSS-in-JS, styled-components, Responsive design
+11. Performance Optimization – Making Your App Fast
+Understanding React’s rendering behavior and performance bottlenecks
+Techniques to optimize performance in React apps (e.g., memoization, lazy loading)
+Using React's React.memo, useMemo, and useCallback hooks
+Code splitting and lazy loading with React Suspense
+Key Concepts: Performance, Memoization, React.memo, useMemo, useCallback, Code splitting
+12. Deploying Your React Application – Going Live
+Deployment options for React apps: Netlify, Vercel, Heroku, AWS, etc.
+Configuring environment variables for different deployment environments
+Building the React app for production using npm run build
+Setting up continuous deployment for automatic updates
+Key Concepts: Deployment, Continuous integration, Production build, Environment variables
+13. React Advanced Patterns – Enhancing Your Skills
+Introduction to higher-order components (HOCs) and render props
+Understanding compound components for reusable logic
+Custom hooks: Creating your own hooks for code reuse
+Using context providers and consumers for state management
+Key Concepts: Higher-order components, Render props, Custom hooks, Compound components
+14. Building Scalable React Applications – Architecture and Design
+Structuring large-scale React applications using component-based design
+Organizing components, hooks, and utilities for maintainability
+Breaking the application into features for better scalability
+Using state management tools like Redux or Zustand for advanced state management
+Key Concepts: Scalability, Component-based design, Architecture, Redux, Zustand
+15. NextJS - The React Framework for Full-Stack Applications
+Introduction to Next.js and why it’s an essential tool for React developers
+Setting up a Next.js project and understanding its file-based routing
+Static Site Generation (SSG) and Server-Side Rendering (SSR) in Next.js
+API Routes in Next.js for backend functionality within a React app
+Dynamic routing and how Next.js handles URL parameters
+Key Concepts: Next.js, File-based Routing, SSR, SSG, API Routes
+Phase 5: Deploy and AI Squad 🚀
+Objective: Master the deployment of web applications to the cloud, ensuring scalability, security, and high availability. Learn about cloud infrastructure using AWS services like EC2, ECS, CloudFront, Load Balancers, Docker, and more to bring applications from development to production. After that we will move towards AI. What is AI, AI powered applications, Vector Databases (Pinecone etc), RAG based systems, Image background removal, image generation, text summarization and creative ideas with AI
+
+1. Introduction to Cloud Deployment – The Basics of Scaling Apps
+What is cloud deployment and why it’s essential for modern applications
+Overview of different cloud providers: AWS, Azure, Google Cloud
+Understanding high availability, scalability, and fault tolerance in the cloud
+Benefits of cloud computing in terms of flexibility, cost, and performance
+Key Concepts: Cloud deployment, Scalability, High availability, Fault tolerance
+2. AWS EC2 – Virtual Servers in the Cloud
+What is Amazon EC2 (Elastic Compute Cloud)?
+Setting up an EC2 instance to host your application
+Understanding EC2 instance types, regions, and availability zones
+Connecting to EC2 instances using SSH and setting up security credentials
+Key Concepts: EC2 Instances, Regions, Availability Zones, SSH
+3. Configuring EC2 Security Groups – Controlling Access to Your Instance
+What are security groups and why they are critical for security?
+Setting inbound and outbound rules for EC2 instances
+Restricting access to your EC2 instance using security group configurations
+Best practices for EC2 security group management
+Key Concepts: Security groups, Inbound and outbound rules, Port management
+4. Load Balancers – Ensuring High Availability and Reliability
+What is a Load Balancer and why it’s important for scalability and availability?
+Introduction to Elastic Load Balancing (ELB) in AWS
+Configuring an Application Load Balancer (ALB) for HTTP/HTTPS traffic
+Setting up health checks to monitor instance health
+Key Concepts: Load Balancing, Application Load Balancer (ALB), Health checks
+5. AWS CloudFront – Content Delivery Network for Faster Load Times
+Introduction to AWS CloudFront and why it’s crucial for performance optimization
+Configuring CloudFront distributions to serve static assets (images, scripts, stylesheets)
+Understanding caching, edge locations, and how CloudFront speeds up content delivery
+Integrating CloudFront with your S3 bucket for static website hosting
+Key Concepts: CloudFront, Caching, Edge locations, Content delivery
+6. Docker – Containerization for Consistency and Portability
+Introduction to Docker and its benefits for application deployment
+Creating Docker images and running containers locally
+Understanding Dockerfiles and how to write them for your application
+Setting up multi-container applications using Docker Compose
+Key Concepts: Docker, Containers, Dockerfiles, Docker Compose
+7. AWS ECS – Elastic Container Service for Running Docker Containers
+What is AWS ECS and why it’s used for deploying Docker containers?
+Setting up an ECS cluster to run Docker containers on EC2 instances
+Creating ECS tasks and services to manage containerized applications
+Configuring ECS with Application Load Balancer (ALB) for traffic distribution
+Key Concepts: ECS, Containers, ECS Tasks, ECS Services, ALB
+8. AWS ECR – Elastic Container Registry for Storing Docker Images
+What is Amazon ECR and how it works with ECS and Docker?
+Pushing and pulling Docker images to/from Amazon ECR
+Securing your ECR repository with IAM permissions and access control
+Best practices for managing container images in ECR
+Key Concepts: ECR, Container registry, IAM, Pushing and pulling Docker images
+9. Target Groups – Directing Traffic to the Right Containers
+What are Target Groups and how do they work with Load Balancers?
+Configuring Target Groups in AWS to route traffic to ECS services
+Setting up health checks for Target Groups to ensure only healthy containers receive traffic
+Understanding the concept of weighted routing and path-based routing in Target Groups
+Key Concepts: Target Groups, Routing, Health checks, Weighted routing
+10. Security Rules & IAM Roles – Managing Permissions for Security
+Introduction to AWS Identity and Access Management (IAM) for managing permissions
+Setting up IAM roles and policies to grant permissions to EC2, ECS, and other services
+Best practices for securing your AWS infrastructure using IAM
+Configuring VPC security groups and network ACLs to restrict access
+Key Concepts: IAM, Roles, Policies, Permissions, VPC Security Groups, Network ACLs
+11. Scaling and Auto Scaling – Adjusting Resources Based on Demand
+Introduction to Auto Scaling and how it helps scale EC2 instances based on demand
+Setting up Auto Scaling groups with EC2 instances and configuring scaling policies
+Using ECS Auto Scaling to scale Docker containers in response to traffic spikes
+Key Concepts: Auto Scaling, Scaling policies, Load balancing, Scaling EC2 and ECS
+12. Continuous Deployment (CI/CD) – Automating the Deployment Pipeline
+Introduction to CI/CD pipelines and why they’re essential for modern web apps
+Setting up CI/CD with GitHub Actions
+Automating Docker container builds and deployment to ECS/ECR
+Rolling updates and blue/green deployments with ECS for zero downtime
+Key Concepts: CI/CD, Code Pipeline, Code Build, GitHub Actions, Docker deployment, Blue/Green deployments
+13. Monitoring and Logging – Keeping Your Application Healthy
+Introduction to AWS CloudWatch for monitoring EC2, ECS, and other resources
+Setting up CloudWatch alarms for resource utilization and application health
+Using AWS Cloud Trail for logging and auditing API calls in your AWS account
+Integrating logging libraries (e.g., Winston, Morgan) into your Docker containers
+Key Concepts: CloudWatch, Monitoring, Cloud Trail, Logging, Winston, Morgan
+14. Cost Optimization – Managing Your AWS Resources Efficiently
+Best practices for managing AWS costs and avoiding unnecessary expenses
+Using AWS Trusted Advisor and Cost Explorer to monitor and optimize costs
+Setting up AWS Budgets and alerts to track spending
+Key Concepts: Cost optimization, AWS Budgets, Trusted Advisor, Cost Explorer
+15. Security Best Practices – Keeping Your Application Secure in the Cloud
+Setting up Web Application Firewalls (WAF) to protect against common attacks
+Using SSL/TLS certificates for secure communication in your application
+Regularly auditing IAM roles and security policies to minimize the risk of unauthorized access
+Securing Docker containers and images with scanning tools and security patches
+Key Concepts: Security, WAF, SSL/TLS, Docker security, IAM auditing
+16. Master AI
+What is AI and Impact of AI
+Learn about Vectors and vector databases
+Model trainings and platforms
+Fun with Text and images
+Building Apps with AI - Project Work
+
+
+Assignment Ideas 💡:
+Phase 1: Spider-Man 🕸️
+1. Personal Portfolio Website
+Objective: Create a personal portfolio website that showcases your skills, projects, and contact information.
+Requirements: Use HTML for the structure, CSS for styling, and JavaScript for interactive elements (e.g., a working contact form).
+Skills Covered: HTML structure, semantic elements, forms, flexbox, media queries, and basic JavaScript.
+2. Responsive Landing Page
+Objective: Design a responsive landing page for a product or service.
+Requirements: Implement a navigation bar, hero section, product features section, and footer. Ensure responsiveness across desktop, tablet, and mobile.
+Skills Covered: Flexbox, CSS Grid, media queries, and responsive design principles.
+3. Interactive Quiz Application
+Objective: Build an interactive quiz with multiple-choice questions.
+Requirements: Display a question with multiple answer choices and highlight correct/incorrect answers. Show the final score at the end.
+Skills Covered: DOM manipulation, event handling, and basic JavaScript logic.
+4. Recipe Finder App (API Integration)
+Objective: Create an app that allows users to search for recipes by ingredient (using an external recipe API).
+Requirements: Use JavaScript to fetch and display recipe information dynamically based on user input.
+Skills Covered: Fetch API, working with JSON, DOM manipulation.
+5. Task Manager (To-Do List App)
+Objective: Build a to-do list app where users can add, delete, and mark tasks as complete.
+Requirements: Use local storage to save tasks even after the page is reloaded. Implement basic interactivity with JavaScript.
+Skills Covered: Event handling, localStorage API, basic JavaScript logic.
+6. Image Gallery with Lightbox Effect
+Objective: Create a responsive image gallery where clicking on an image opens a larger version in a modal.
+Requirements: Implement a grid layout for the images and use JavaScript to control the modal behavior.
+Skills Covered: CSS Grid, Flexbox, JavaScript DOM manipulation, and modal window design.
+7. Weather App (API Integration)
+Objective: Build a weather application that shows the current weather based on a user-entered location.
+Requirements: Use an external weather API to fetch weather data and display it dynamically using JavaScript.
+Skills Covered: API consumption, DOM manipulation, and handling JSON data.
+8. Interactive Form Validation
+Objective: Create a form that validates user input before submission (e.g., email format, password strength).
+Requirements: Provide feedback for incorrect inputs and disable the submit button until all fields are valid.
+Skills Covered: JavaScript form validation, event handling, and DOM manipulation.
+9. E-Commerce Product Page
+Objective: Design an e-commerce product page that includes an image carousel, product description, and price.
+Requirements: Use JavaScript to toggle the image carousel and show/hide additional product details.
+Skills Covered: Image manipulation, CSS animations, DOM events, and interactivity.
+10. Multi-Page Website
+Objective: Build a multi-page website with navigation links that connect the homepage, about page, and contact page.
+Requirements: Use HTML for structure, CSS for styling, and JavaScript for interactive elements like a contact form.
+Skills Covered: Navigation, forms, link management, and CSS styling
+Phase 2: JavaScript Surgeons 🧑🏻‍⚕️
+1. Create a To-Do List Application
+Objective: Build a simple to-do list application where users can add, edit, and delete tasks.
+Requirements: Use JavaScript to handle task addition, deletion, and saving the tasks in the browser's local storage.
+Skills Covered: DOM manipulation, local storage, event handling, array methods.
+2. Interactive Countdown Timer
+Objective: Build a countdown timer that counts down from a specified time and alerts the user when time is up.
+Requirements: Use setInterval or setTimeout to update the timer every second and create a visual countdown.
+Skills Covered: Timer functions, JavaScript timing events, DOM updates.
+3. Fetch Data from an API and Display
+Objective: Fetch data from a public API (like the JSONPlaceholder API) and display the results dynamically on the web page.
+Requirements: Use the fetch API to retrieve data asynchronously and display it in a structured format (e.g., a list or table).
+Skills Covered: Asynchronous JavaScript, fetch API, handling JSON data, DOM manipulation.
+4. Create a Simple Form Validation
+Objective: Build a form with fields for name, email, and password, and validate the form inputs before submission.
+Requirements: Use JavaScript to check if the input fields are filled correctly, and display error messages if validation fails.
+Skills Covered: Form validation, regular expressions, event handling, DOM manipulation.
+5. Build a Modal Dialog
+Objective: Create a modal dialog box that can be opened and closed with JavaScript.
+Requirements: Use JavaScript to toggle the visibility of the modal and handle the opening and closing actions based on user interaction.
+Skills Covered: DOM manipulation, event handling, CSS transitions.
+6. Implement Debouncing in JavaScript
+Objective: Create a search input box that fetches results from an API with debounce functionality.
+Requirements: Use the debouncing technique to delay the API request until the user stops typing for a specified amount of time.
+Skills Covered: Debouncing, event handling, asynchronous JavaScript, API integration.
+7. Implement Throttling in JavaScript
+Objective: Create a button that logs the number of clicks in a set period of time using throttling.
+Requirements: Use the throttling technique to limit how often the event handler can be triggered, ensuring the function only executes at regular intervals.
+Skills Covered: Throttling, event handling, performance optimization.
+8. JavaScript Calculator
+Objective: Build a simple calculator that performs addition, subtraction, multiplication, and division.
+Requirements: Use JavaScript to handle arithmetic operations, display results dynamically, and manage button clicks.
+Skills Covered: DOM manipulation, event handling, functions, arithmetic operations.
+9. Event Delegation
+Objective: Create a dynamic list of items where new items can be added, and the user can click on any item to remove it. Use event delegation to handle events efficiently.
+Requirements: Use event delegation to attach a single event listener to the parent container instead of individual list items.
+Skills Covered: Event delegation, DOM manipulation, dynamic content handling.
+10. Build a Simple Weather App
+Objective: Create a weather application that fetches weather data from a public API (e.g., OpenWeatherMap API) based on the user's location or city input.
+Requirements: Use JavaScript to fetch data from the weather API and display the current temperature, humidity, and other details in a user-friendly format.
+Skills Covered: API integration, asynchronous JavaScript, geolocation, DOM manipulation.
+Phase 3: Node Ninja 🥷
+1. Build a Simple REST API with Node.js and Express
+Objective: Create a basic REST API to manage a collection of items (e.g., products, tasks).
+Requirements: Implement CRUD (Create, Read, Update, Delete) operations with Express and store data in a simple array or in-memory database.
+Skills Covered: Express.js, REST API design, routing, HTTP methods, CRUD operations.
+2. User Authentication with JWT (JSON Web Tokens)
+Objective: Implement user authentication in a Node.js app using JWT for secure login and session management.
+Requirements: Create a user registration endpoint and a login endpoint, issue JWT tokens, and protect routes that require authentication.
+Skills Covered: Authentication, JWT, hashing passwords with bcrypt, middleware, secure API design.
+3. File Upload with Node.js
+Objective: Create an API that allows users to upload files (e.g., profile pictures) to the server.
+Requirements: Use the multer library to handle file uploads and store files on the server or cloud storage.
+Skills Covered: File handling, middleware, API integration with third-party services (e.g., AWS S3), multer.
+4. Create a Blog API with Database Integration (MongoDB/PostgreSQL)
+Objective: Build a blog API that allows users to create, edit, and delete blog posts.
+Requirements: Integrate a database (MongoDB or PostgreSQL) for storing blog data, use Mongoose or Sequelize ORM, and implement basic CRUD operations.
+Skills Covered: Database integration, ORMs (Mongoose/Sequelize), CRUD operations, RESTful API design.
+5. Create a URL Shortener with Node.js
+Objective: Build a URL shortener service that takes long URLs and generates short, unique URLs.
+Requirements: Use a hashing technique or a database to store the mappings of original URLs to shortened URLs, and implement a redirection feature.
+Skills Covered: URL encoding/decoding, short URL generation, database integration, routing.
+6. Build a Chat Application with WebSockets (Socket.io)
+Objective: Implement a real-time chat application where users can send and receive messages instantly.
+Requirements: Use socket.io to set up WebSockets for real-time communication and build a simple messaging interface.
+Skills Covered: WebSockets, real-time communication, Socket.io, event-driven programming.
+7. Create a Task Management API with Role-Based Access Control (RBAC)
+Objective: Develop a task management API where users can create tasks, assign roles, and control access based on user roles (Admin, User).
+Requirements: Implement user roles and permissions for each task (e.g., admins can manage all tasks, while users can only manage their own).
+Skills Covered: Authentication, authorization, RBAC, middleware, role-based routing.
+8. Implement API Rate Limiting with Redis
+Objective: Implement rate limiting in a Node.js API using Redis to prevent abuse.
+Requirements: Use Redis to store API request counts and throttle requests per user or IP address, limiting the number of requests within a time frame.
+Skills Covered: Redis, rate limiting, performance optimization, middleware.
+9. Microservices Architecture with Node.js
+Objective: Break a monolithic API into microservices, where each microservice handles a specific part of the application (e.g., user service, product service).
+Requirements: Implement multiple microservices with Node.js, communicate between them using REST APIs, and deploy each service independently.
+Skills Covered: Microservices, RESTful APIs, service communication, Docker (for service isolation).
+10. Implement Logging and Monitoring in Node.js (Winston, Morgan, PM2)
+Objective: Set up logging and monitoring in a Node.js application to track requests and errors in production.
+Requirements: Use logging libraries like Winston and Morgan to log API requests and errors. Integrate PM2 for process management and monitoring.
+Skills Covered: Logging, error handling, performance monitoring, PM2, Winston, Morgan.
+Phase 4: React Alchemist 🧙🏻
+1. Build a Responsive Portfolio Website Using React
+Objective: Create a personal portfolio website using React that showcases your skills, projects, and experience.
+Requirements: Implement a responsive design using React, including sections like About, Projects, and Contact. Use React Router for navigation.
+Skills Covered: React components, React Router, responsive design, functional components.
+2. Create a To-Do List App with React and Local Storage
+Objective: Develop a to-do list application that allows users to add, edit, delete, and mark tasks as completed.
+Requirements: Use React hooks for state management, and persist tasks using the browser’s local storage.
+Skills Covered: React hooks (useState, useEffect), local storage, event handling, CRUD operations.
+3. Build a Movie Search App with React and The Movie Database API
+Objective: Build an app that lets users search for movies using The Movie Database (TMDb) API.
+Requirements: Fetch data from the TMDb API based on user input and display movie details (e.g., title, poster, ratings).
+Skills Covered: API integration, fetching data with fetch or axios, state management, and conditional rendering.
+4. Develop a React Calculator App
+Objective: Build a simple calculator application with React that supports basic arithmetic operations.
+Requirements: Use state management with React hooks to perform calculations, and design a user-friendly interface.
+Skills Covered: React state management, event handling, conditional rendering.
+5. Create a Real-Time Weather App with React and OpenWeather API
+Objective: Build a weather app that fetches and displays real-time weather data based on user input (city name).
+Requirements: Use the OpenWeather API to get data and display it in an easy-to-read format (temperature, humidity, etc.).
+Skills Covered: API integration, asynchronous data fetching, React state management, UI/UX design.
+6. Implement React Context for Global State Management
+Objective: Build a simple app (e.g., a shopping cart) where the state is managed globally using React Context API.
+Requirements: Use Context API to share the shopping cart's state across multiple components (e.g., product list, cart).
+Skills Covered: React Context API, global state management, useContext, performance optimization.
+7. Create a Custom Form with Dynamic Inputs and Validation
+Objective: Build a form component in React that can dynamically render different input fields and validate the inputs.
+Requirements: Implement form validation (e.g., required fields, regex for email) and dynamic inputs that change based on user selection.
+Skills Covered: Form handling, validation, dynamic component rendering, controlled components.
+8. Build a Blog Dashboard with React and Firebase
+Objective: Develop a blog dashboard where users can create, edit, and delete blog posts stored in Firebase.
+Requirements: Integrate Firebase for authentication and database storage. Implement CRUD operations to manage blog posts.
+Skills Covered: Firebase, authentication, Firestore database, React hooks, CRUD operations.
+9. Create an E-commerce Product Listing Page with Pagination
+Objective: Build a product listing page for an e-commerce app that allows users to filter products by category and paginate through results.
+Requirements: Use React to create dynamic product listings, implement filtering options (category, price), and pagination.
+Skills Covered: React state management, pagination, filtering, component composition, event handling.
+10. Build a Social Media Feed with Infinite Scroll and Lazy Loading
+Objective: Develop a social media feed where users can scroll through posts, and new posts are loaded lazily as they reach the bottom.
+Requirements: Implement infinite scrolling using the Intersection Observer API or a library like react-infinite-scroll-component.
+Skills Covered: Infinite scroll, lazy loading, performance optimization, event handling.
+Phase 5: Deploy Squad 🚀
+1. Deploy a Node.js API on AWS EC2
+Objective: Set up a basic Node.js API and deploy it on AWS EC2 using SSH for secure access.
+Requirements: Install Node.js and your API on an EC2 instance, configure security groups, and make the API accessible publicly.
+Skills Covered: AWS EC2, SSH, security groups, basic deployment process.
+2. Set Up a Load Balancer for High Availability on AWS
+Objective: Deploy a Node.js application on multiple EC2 instances and configure an Elastic Load Balancer (ELB) to distribute traffic evenly.
+Requirements: Set up multiple EC2 instances running your app and configure AWS Elastic Load Balancer to ensure high availability.
+Skills Covered: AWS Load Balancer, EC2 instances, auto-scaling, high availability.
+3. Implement AWS CloudFront for CDN
+Objective: Set up CloudFront to cache static assets of a React application (e.g., images, JavaScript, CSS) and reduce latency for global users.
+Requirements: Configure AWS CloudFront to point to an S3 bucket containing your static React build.
+Skills Covered: AWS CloudFront, Content Delivery Network (CDN), S3, performance optimization.
+4. Create Dockerized Node.js API and Push to AWS ECR
+Objective: Dockerize a Node.js API and push the image to Amazon Elastic Container Registry (ECR).
+Requirements: Write a Dockerfile for your Node.js API, build the Docker image, and push it to AWS ECR.
+Skills Covered: Docker, AWS ECR, containerization, Dockerfile.
+5. Deploy Dockerized Application with AWS ECS
+Objective: Deploy a Dockerized application on AWS Elastic Container Service (ECS).
+Requirements: Set up ECS to run your Docker containers, manage clusters, and define services for scaling.
+Skills Covered: AWS ECS, Docker containers, cluster management, scaling.
+6. Configure AWS Security Groups and IAM Roles
+Objective: Set up security groups and IAM roles to secure your AWS resources, ensuring least-privilege access for both EC2 and S3.
+Requirements: Create and configure security groups and IAM roles to secure access to EC2 instances, load balancers, and S3 buckets.
+Skills Covered: AWS Security Groups, IAM roles, access management, security best practices.
+7. Set Up Continuous Deployment with GitHub Actions and AWS
+Objective: Automate deployment to AWS EC2 using GitHub Actions whenever you push to the main branch.
+Requirements: Write a GitHub Actions workflow that SSHs into your EC2 instance and deploys the latest code.
+Skills Covered: GitHub Actions, Continuous Deployment (CD), AWS EC2, automation.
+8. Create and Manage AWS RDS (Relational Database Service)
+Objective: Set up an AWS RDS database (e.g., PostgreSQL or MySQL) and connect it to your Node.js application.
+Requirements: Launch an RDS instance, connect your application to it, and implement basic CRUD operations.
+Skills Covered: AWS RDS, database management, Node.js integration, environment variables.
+9. Implement Docker Compose for Multi-container App Deployment
+Objective: Use Docker Compose to deploy a multi-container application (e.g., Node.js backend with a MongoDB database) locally or on AWS ECS.
+Requirements: Write a docker-compose.yml file to configure and run multiple services in separate containers.
+Skills Covered: Docker Compose, multi-container setups, local deployment, environment configuration.
+10. Set Up Target Groups and Auto-scaling in AWS
+Objective: Set up Auto Scaling groups in AWS to ensure your application can handle increased traffic, while distributing it across multiple EC2 instances using Target Groups.
+Requirements: Configure an Auto Scaling group, set up Target Groups to route traffic, and test the scaling behavior.
+Skills Covered: AWS Auto Scaling, Elastic Load Balancer, Target Groups, monitoring traffic.

@@ -1,0 +1,1099 @@
+Job Ready AI Powered Cohort : Complete Web Development + DSA + Aptitude & Reasoning
+❤️‍🔥
+
+Episode 1 - Code
+1. How the Internet Works:
+History of Web (Web 1.0 to Web 3.0).
+How computer communicate with each other.
+How computer send data all over the world.
+What is Domain Name, IP & MAC Addresses and Routing.
+How ISP and DNS work together to deliver data.
+2. Client-Server Architecture:
+What is Client-Server Model.
+Difference between Client (browser) and Server (the computer hosting your website).
+How HTTP request and response cycle works (how browser talk to server).
+What happens when you visit a website.
+Difference between Front-end and Back-end (Front-end vs Back-end).
+What are Static Websites and Dynamic Websites.
+What is web hosting and how it works.
+3. Internet Protocols:
+What is TCP protocol and why is widely used
+How Connection is established using TCP (3 Way handshake)
+What is UDP and why its used for fast communication
+How UPD establishes connection
+Difference between TCP and UPD
+4. Understanding HTTP & HTTPS
+What is HTTP and its different version
+HTTP status code for responses
+What is HTTPS and why its better than HTTP
+How HTTPS provides a secure connection
+What is SSL/TLS Encryption
+What are Proxy and Reverse Proxy
+How VPN works and helps accessing restricted content
+5. Preparing Your Machine
+Installing & Setting up VS Code
+Installing helpful extensions
+Setting up your browser for development
+What are file and folders and how to create them
+Testing our environment via serving a webpage - “Namaste Duniya”
+Episode 2 - Stage
+1. Starting with HTML
+Understanding HTML and its use Cases.
+Creating first HTML page in VS Code
+Understand HTML Structure
+Understanding Tags and building simple HTML page - doctype , html , head , title , body
+Working with text elements - h tags , p tag , br tag , a tag , span , code , pre
+Working with HTML Lists(Ordered & Unordered lists) - ol , ul , li
+Understanding Concept of nested elements in HTML
+Working with Media Tags - img , video , audio
+HTML attributes - href , target , alt , src , width , height ,
+Navigating between pages and section using anchor tag
+Comment Code in HTML Document
+2. More on HTML
+Understand and using div Tags
+Understanding semantic tags - article , section , main , aside , form , footer , header , details , figure
+Differentiating between block and inline elements
+Text formatting tags in HTML - b , string , i , small , ins , sub , sup , del , mark
+Working with HTML Symbols and Special Characters ♣️ © ←
+Working with HTML tables - table , td , tr , th
+More Attributes and tags related to table
+3. HTML Forms and Inputs
+What is Form and why its important
+Creating a simple Form with tags - form , input , textarea , select , button , label
+Types of input fields - checkbox, text , color , file , tel , date , number , radio , submit , range
+Attributes of Form Elements - method, actions, target, novalidate, enctype, name, required, placeholder
+4. Media Tags in HTML
+Understanding with audio and video Tags
+Attributes if media tags - src, width, height, alt, muted, loop, autoplay, controls, media
+Using source element for alternative media files
+Understanding concept of using iframe
+5. Basics of CSS (Cascading Style Sheet)
+Introduction to CSS and Why it is important
+Understanding Syntax, Selectors and comments in CSS
+Adding CSS to HTML Page - Inline, Internal, External
+Understanding difference between selectors - class , id , element
+Understanding precedence of selectors
+How to style text using CSS - font family, font style , font weight , line-height , text-decoration , text-align , text-transform , letter-spacing , word-spacing , text-shadow
+6. Styling With CSS
+Working with colors in CSS - name , rgb , hex , hsl , rgba , hsla
+Working with css units - % , px , rem , em , vw , vh , min , max
+Working with borders and border styling
+Working with box properties - margin , padding , box-sizing , height , width
+Understanding Background properties - background-size , background-attachment , background-image , background-repeat , background-position , linear-gradient
+Implementing shadow property.
+7. More about CSS
+Applying display properties - inline , grid , flex , none , inline-block , etc.
+Introduction to FlexBox for aligning and structure - flex-direction , order , flex-wrap , flex-grow , flex-shrink , justify-content , align-items , align-content , align-self , flex-basis , shorthand properties of flex
+Understanding Flex Grid for making grids using CSS.
+Working with positional properties - absolute , relative , static , sticky , fixed.
+Understanding Overflow - visible , hidden , scroll.
+Working with Grouping Selectors.
+Why we use Nested Selectors.
+8. Interesting things about CSS ✌️
+Applying pseudo classes and Pseudo Elements [ hover , focus , after , before , active ] .
+Learning CSS Transitions (properties, duration, timing functions, delays).
+Creating with Transform (translate, rotate, scale, skew , transform , rotate ).
+Working with 3D Transform ( translate3d() , translateZ() , scale3d() , scaleZ(), rotate3d() , rotateZ() , perspective
+Understanding CSS Animation ( @keyframes ).
+Learning CSS Frameworks [ Tailwind ,Bootstrap ].
+9. Responsive with CSS 🖥️
+Difference Between Mobile-first and Desktop first Website(mobile-first vs desktop first).
+Measurement units for Responsive Design - px(pixel), in(inch), mm(millimetre), %, rem
+Using Viewport meta element for Responsive.
+Setting up Images and Typography for Responsiveness.
+What are Media queries [ @media , max-width , min-width ].
+Using Different function of CSS [ clamp , max , min ].
+Understand HTML structure for Responsive Design.
+10 Working With SASS (SASSY) my favorite 🤩
+What is SASS? Variables ,Nesting ,Mixins ,Functions and Operators .
+Setting up environment for SCSS.
+SCSS or SASS? and Setting Up SCSS.
+Working with SASS :- Variables , Nesting ,Partials and Imports ,Mixins ,Inheritance/Extends , Functions ,Operators .
+Advanced Concepts :- Control Directives , Color Functions ,
+11. Basics of Javascript with ES6+ Features 🚀
+Introduction to JavaScript, Why it is Important! and What can it do for you?
+How to link javascript files using script-tag .
+Running JavaScript in the Browser Console .
+Variables and Keywords in Javascript [ var , let , const ].
+Logging with javascript - [console.log() , console.info() , console.warn() , prompt , alert ]
+Working with String in JS and there -[splice , slice , template string , split , replace , includes ]
+What are Statement and Semicolons in JS
+How to add Comments in JavaScript
+What are Expression in Js and difference between expression and statement
+JavaScript Data Types - [float , number , string , boolean , null , array , object , Symbol , Undefined ]
+Some Important Values - [undefined , null , NaN , Infinity ]
+Relative and Primitive Data Type in JavaScript
+Basic Operators(Arithmetic, Assignment, Increment, Decrement, Comparison, Logical, Bitwise) - [+ , - , * , / ,++ , -- , == , === , != ,and more ]
+Variable hoisting in JavaScript
+12 . Loops & Conditionals in Javascript
+Understanding Condition Operator in Javascript - [if , else , if-else , else-if , Ternary Operator , switch ]
+for Loop in JavaScript
+while Loop in JavaScript
+do...while in JavaScript
+forEach in JavaScript
+for in Loop in JavaScript
+for of Loop in JavaScript
+Recursion in JavaScript
+Loop control statements - [ break , continue ]
+13. Functions in JavaScript
+Understanding Function in JavaScript and why its widely used - [parameters , arguments , rest parameters , hoisting , Variable Hoisting , Function Hoisting ]
+Parameters in JavaScript - [required , destructured , rest , default ]
+Arguments in JavaScript - [positional , default , spread ]
+Classic Function, Nested Function(function within function), Scope Chain in Javascript.
+Understanding Immediately Invoked Function Expression(IIFE).
+More Functions in JavaScript - [Arrow Function , Fat Arrow , Anonymous , Higher Order , Callback , First Class , Pure Function , Impure Function]
+Understanding Scoping in JS - [Global scope , Function scope ]
+Understanding Closures, Scoping Rule .
+14. Arrays and Objects in JavaScript
+What are Arrays in JavaScript and how to Create an Array.
+Understand How to Accessing Elements in Array.
+Functions on Arrays - [push , pop , shift , unshift , indexOf , array destructuring , filter , some , map , reduce , spread operator , slice , reverse , sort , join , toString ]
+Iterating Over Arrays using - [For Loop , forEach ]
+Understanding What are Objects in JavaScript - [key-value pair ]
+Creating Objects, Accessing Properties, Deleting Property and Nested Objects.
+Recognise How Objects Are Stored, Traverse Keys of an Object, Array as Object.
+Timing Events - setTimeout() , setInterval() , clearTimeout() , clearInterval()
+Operation in Objects - [freeze , seal , destructuring , object methods , this keyword]
+15. Document Object Model Manipulation
+Introduction to DOM in JavaScript
+Understanding DOM Structure and Tree - [nodes , elements , document]
+Fetching Elements in DOM - [document.getElementById, document.getElementsByTagName, document.getElementsByClassName, document.querySelectorAll, document.querySelector ]
+DOM Tree Traversal - [parentNode , childNodes , firstChild , nextSibling]
+Manipulating DOM Element in JavaScript - [innerHTML , textContent , setAttribute, getAttribute , style property , classList ]
+Create and Removing DOM Elements - [createElement() , appendChild() , insertBefore() , removeChild() ]
+16. Event Handeling in JavaScript
+Event Handling in JavaScript - [addEventListner(), event bubbling, event.target , event capturing]
+Understanding Scroll Events, Mouse Events, Key Events and Strict Mode.
+Working with Forms and Input Elements - [Accessing Form Data , Validating Forms , preventDefault() ,onsubmit, onchange]
+Working with Classes ****Adding, Removing , Toggling (classList methods)
+Browser Events - [DOMContentLoaded , load , resize , scroll]
+17. Using Browser Functionalities in JavaScript
+Browser Object Model - [window , navigator , history , location , document]
+Window Object - [ window.location , window.history]
+Working with Storage - [Local Storage , Session Storage , Cookies]
+Web APIs in DOM - [Fetch API , Geolocation API ]
+18. Object Oriented Concepts in JavaScripts
+Introduction to OOPS in JavaScript
+Understanding classes and objects in JavaScript
+Understanding Constructor and Prototypes - [this keyword , call , apply , bind]
+More Topics in OOPS - [class expression , hoisting , inheritence , getter & setter]
+19. Asynchronous Programming JavaScript
+Introduction to Asynchrony in JavaScript.
+What is Event loop and how it works in JavaScript - Task Queue , Microtask Queue
+Introduction to callbacks and Problems in Callbacks
+Understanding promises - pending , resolved , rejected
+Chaining Multiple Handlers and Promise Methods - Promise.race() , Promise.all() , Promise.any() , Promise.allSettled() .
+How to prevent callback hell using async & await .
+setInterval & setTimeout in JavaScript
+What is Web API in JavaScript - [Fetch API , Geolocation API ]
+20. Error Handling in JavaScript
+Introduction to Error Handling
+Common types of errors in JavaScript - [Syntax errors , Runtime errors , Logical errors]
+Understanding the Error object - [message , name , stack]
+Handling exceptions using try-catch , try-catch-finally
+How to Throw Errors in JavaScript
+How to create custom error in JavaScript
+Error Handling in Asynchronous Code
+21. Kuch Baatein Advance JavaScript Pr ⚙️
+Throttling and Debouncing uses in JavaScript
+JSON Handeling and JavaScript - [JSON.parse() , JSON.stringify()]
+22. Git and Github
+What is Git and Github?
+Concepts - Git commits , Understanding branches, Making branches, merging branches, conflict in branches, understanding workflow, pushing to GitHub.
+How to use GitHub with team members, forking, PR(pull requests) open source contribution, workflow with large teams.
+Episode 3 - Commit
+1. Introduction of React 🪫
+What is React, and Why Use It?
+What are Components and types of Components - class component , function components
+Understanding Single Page Applications (SPAs), Single Page Applications Vs Multi-Page Applications.
+Difference between Real DOM and Virtual DOM
+NPM Basics | Installing Packages.
+How does updates work in React? and More ES6+ features like Import & Exports ,
+Difference Between React and Other Frameworks (Angular, Vue).
+Learning Some Basic Terminal Commands - pwd , ls , cd , clear
+Setting Up React Environment with nodejs.
+Install React-Vite Boilerplate and Installing React Developer Tools.
+Understanding JSX or JavaScript XML and Its Importance - Fragments , Components Naming .
+Creating and Understanding best practices for Components in React.
+Understand React Project - control-flow , WebPack , Babel , Folder Structure , React Developer Tools .
+2. Styling in React 🐼
+Different Styling Approaches.
+Importance of component-based styling. Inline Styles ,CSS Modules
+Introduction TailwindCSS Integration.
+Installing and configuring TailwindCSS with React.
+Customizing TailwindCSS configuration for themes and colors.
+Dynamic Styling Based on Props or State.
+Responsive Design in React
+Media queries with CSS and styled-components.
+Leveraging TailwindCSS for responsive layouts.
+Animation and Transitions Using libraries like framer-motion or gsap for advanced animations.
+3. React Basics 🔦
+Create Components with functions.
+Importing css file/stylesheet in react and Adding a CSS Modules Stylesheet - Styled Components , Dynamic styling with styled-components .
+Creating a state and Manage State using setState - What is State? , setState , useState , Batching.
+Creating Parameterised Function Components in React.
+React Props: Passing Data to Components.
+Function chaining in React and Conditional Rendering - Rendering Array Data via map , Eliminating Array Data via filter.
+4. More on React 📽️
+Higher Order Components in React.
+Reusing Components, Lists and Keys in React.
+Sharing Data with child components : Props Drilling .
+Rendering a List, Mapping and Component Lifecycle - Mounting , Updating , Unmounting.
+Understanding React Component Lifecycle .
+Different Lifecycle Methods like componentDidMount .
+Understanding React Hooks - What are Hooks? , Why Hooks? , useState hook , useEffect hook , Custom Hooks , Rules of Hook , useContext , etc.
+Understanding and Applying Context API.
+5. Useful Hooks in React 🪝
+Understanding React Hooks
+Rules of hooks.
+Commonly Used Hooks:
+useState
+useEffect
+useContext
+useRef
+useCallback
+useMemo
+Custom Hooks: When and How to Create Them
+6. Navigation in the React with React Router 🚧
+Introduction to React Router.
+Setting Up and Configuring React Router setup of react-router-dom .
+Navigating Between Pages with .
+Passing Data while Navigating
+Dynamic Routing
+URL Parameters and Query Strings
+Nested Routes
+Programmatic Navigation Using useNavigate.
+Handling 404 Pages : fallback route for unmatched paths, Customizing the "Page Not Found" experience.
+7. State Management Using Redux. 🏪
+Introduction to Redux , What is redux?, When and Why use redux?
+Understand Principles of Redux and Redux Flow.
+Understanding State Management in React using Redux.
+Why Use State Management Libraries?
+Why Redux need reducers to be pure functions.
+Redux Basics: Actions , Reducers , Store , Currying , Middleware , Async Actions: Thunk
+Connecting Redux to React Components with react-redux.
+Introduction to Redux Toolkit.
+Alternatives: Recoil, Zustand, or MobX (Brief Overview).
+8. Form controls in the React : Building Dynamic Forms 📋
+Introduction to Forms in React.
+Building Basic Forms.
+Creating form elements like input, textarea, select, etc.
+Two way binding with react [ input , textarea ].
+Handling Form Events [ onChange , onSubmit , event.preventDefault() ].
+Validation in React Forms : client-side form validation.
+Integrating Forms with APIs.
+Sending form data to a backend using fetch or axios.
+Handling loading states and success/error feedback.
+9. Performance Optimization 🏎️
+Code Splitting with React Lazy and Suspense
+Avoids redundant calculations by caching Using Memoization Techniques:
+React.memo
+useMemo
+useCallback
+Avoiding Re-Renders using useState ,
+Optimizing Component Structure
+Performance Profiling Tools using Chrome DevTools , Lighthouse , Web Vitals ,Largest Contentful Paint (LCP), First Input Delay (FID)
+10. Deploying React projects 🚨
+Preparing a React App for Production .
+Building React Applications.
+Environment Variables in React.
+Deployment Platforms: Netlify ,Vercel , GitHub Pages ,
+11. Real-World Project with React 👷🏻‍♂️
+Building a Complete React Project
+Combining All Concepts (Routing, State Management, API, etc.)
+Styling and Responsiveness ,
+Optimizing and Deploying the Project.
+12. Basic SEO Principles
+On-Page Optimization in SEO.
+Guide to SEO Meta Tags.
+Image SEO Best Practices.
+Internal Link Building SEO.
+Create An SEO Sitemap For a Website.
+13. Mastering React with Next.js
+Getting Started with Next.js: Features and Capabilities.
+Comparing Next.js and React: When to Use Which.
+Deep Dive into Server-Side Rendering (SSR) and its benefits.
+Exploring Data Fetching Methods in Next.js.
+Understanding Hot Reloading for faster development cycles.
+Optimizing Images and Media with Next.js tools.
+Episode 4 - Push
+1. Starting with Node.js - The Beginning 🏁
+Introduction to Node.js and Getting Our Tools - Node.js LTS , Postman , Editor
+Setting up the Tools for our Environments
+Running script with nodejs - “Namaste Duniya”
+Understanding CommonJS vs ES6 Modules.
+NPM Basics | Installing Packages.
+Creating and Managing package.json.
+Useful Core Modules (os, fs, path)
+Basic Terminal Commands and Working - cd , ls , pwd , clear , mkdir.
+Understanding File System(fs) in Node.js
+2. Creating Server - Writing Our First Server 📱
+What is Server and how it works?
+Setting Up Our First Node.js Server using HTTP
+Serving A Response to the Browser and Understanding Responses.
+Serving First HTML Page Using Response.
+Routing in HTTP Servers.
+Understanding Status Code - 1XX , 2XX , 3XX ,404 - Not Found , 200 - success , 500 - Internal Server error , 422 - Invalid Input , 403 - the client does not have access rights to the content , etc.
+Installing Nodemon for Automatic Server Restarts.
+3. Some talk on Different Architectures 🏯
+Different Architectures in backend like MVC and SOA.
+Understanding MVC Architecture Model , View ,Control.
+MVC in the context of REST APIs.
+4. Web Framework - Express.js 🚀
+what is Express.js and why to use it.
+Setting Up Express Server .
+Returning Response from the server.
+Using Query Parameters and URL Parameters.
+HTTP Request - Some Important part of requests , Different Types of Requests - Get , Post , PUT , Patch , Delete.
+Serving Static Files with express.static() .
+5. Template Engine - EJS 🚜
+What is Template Engine and What is the use of Template Engine.
+Template Engine Option - Handlebars , EJS , Pug , jade but We’ll use EJS .
+Setting Up Template Engine - Installed EJS template engine.
+Rendering Our First Page using EJS and Some important syntax - <%= %> , <% %> , <%- %>.
+Loop statement, Conditional statement and Locals in views - EJS.
+Accessing the Static Files Inside EJS file.
+6. Middleware in Express.js (one of my favorite) 🐵
+Understanding the middleware in express.
+Implementing middleware with express.
+Different types of middleware : builtIn middleware , third-party middleware ,custom middleware .
+Different level of middleware : Application-Level , Router-Level .
+Handeling Errors and Security with middleware : Error-Handling , Helmet , CORS.
+7. Handling file with Express 📁
+Understand Multer and its usecase?
+Uploading file with multer.
+Understanding Memory and Disk Storage.
+Accessing uploaded file req.file.
+Working with express.static.
+Using Cloudinary or Imagekit for Real-time media processing APIs and Digital Asset Management.
+8. Beginning of Database Basics ( Bohot km theory ) 🗄️
+Relational and non-relational Databases : mongodb & mysql .
+What is MongoDB? Why Use It?
+Installing Compass and Understand how to access DB using terminal.
+Setting Up MongoDB Locally and in the Cloud.
+Understanding Datatypes Collections and Documents.
+Connecting MongoDB to Node.js with Mongoose .
+Database Relations - One to One , One to Many OR Many to One , Many to Many , Polymorphic .
+Handling Relationships with Mongoose (populate).
+9. API Development(REST) ⛓
+What is a REST API?
+Designing RESTful APIs.
+Understanding Stateless Communication .
+Versioning in RESTful APIs - /v1/
+Using Postman for API Testing and developing - Send Requests , Save Collections , Write Tests .
+Understanding and Working With Status code , 2xx (Success) , 4xx (Client Errors) , 5xx (Server Errors) .
+Validating API Inputs Using libraries like express-validator or Sanitization .
+Security Handling - Rate Limiting with express-rate-limit ,XSS Attack , CSRF Attack , DOS Attack.
+10. Database Optimization for Fast response 🧘🏻
+Indexing for Performance with MongoDB :- Single-Field Indexes , Compound Indexes , Text Indexes ,Wildcard Indexes.
+Best practice with Indexing explain().
+Learning MongoDB Aggregation.
+Comparison Operators - [$eq , $ne , $lt , $gt , $lte , $gte , $in , $nin]
+Logical Operators - [$not , $and , $or and $nor]
+Array[$pop, $pull, $push and $addToSet]
+Stages in Aggregation pipeline :- $match , $group ,$project ,$sort ,$lookup.
+Creating Database on Local and Atlas
+Understanding concepts of Replication and Sharding.
+Creating parallel pipeline with $facet .
+Learning MongoDB Operators.
+Understanding Different types of Operators :- Comparison , Comparison ,Regex ,Update ,Aggregation.
+11. Logging Backend : Express.js
+Why is Logging Important?
+Setting Up Logging with Libraries winstone ,Pino ,Morgan .
+Different mode of morgan ,dev ,short ,tiny .
+Error Handling and Logging.
+12. Production Wala Project Structure and Configuration 🗼
+Understanding the Basic Structure of application.
+Learning File Naming Conventions, Git Configuration,
+Understanding Important Folders :- src/ ,config/ ,routes/ ,utils/ .
+Role of package.json , ENV and .gitignore .
+Production Environment - PM2 , Error & Response Handling Configuration , CORS Configuration , async-handler.js.
+Using and Configuring ESLint and Prettier for code formatting.
+Testing APIs using Postman.
+13. Authentication and Authorization 🪪
+Difference Between Authentication & Authorization
+Working with Passwords and Authentication - Cookie Authentication , OAuth Authentication
+Understanding Session and Token Authentication.
+Implementing JWT Authentication :- jsonwebtoken JWT_SECRET.
+Securing user password with bcrypt hashing salt.
+Role-Based Access Control (RBAC).
+Authenticating user with Express middleware .
+Understanding Passport.js and its usecase?
+Glancing through and Installing Passport.js
+Setting up Passport.js - passport-local, local-strategy , google-OAuth
+express-sessions and using passport for authentication.
+14. Working Real time communication : WebSockets and socket.io 💬
+Understanding WebSockets protocol for realtime applications?
+Learning handshake ,Persistent connection ,Bidirectional communication ,HTTP polling .
+Understanding difference between WebSocket Vs Socket.io.
+Working with socket.io for realtime applications.
+Understanding usage ofRooms in Socket.io.
+Understanding Middleware in Socket.io.
+15. Working With Caching - Local and Redis 🍄
+What is Caching and How to cache data locally?
+What is Redis?
+Why Use Redis for Caching?
+Implementing Redis Caching in Node.js.
+Advanced Redis Features TTL ,Complex Data Structures , Pub/Sub.
+16. Error handling in express 🛑
+Basic Error Handling in Express next() .
+Catching Specific Errorstry &catch .
+Creating Util Class for Error Handling.
+17. Testing Tools 🛠️
+Understanding Unit-Testing With Jest.
+Cross Browser Testing and Why Is It Performed?
+What Is Web Testing? and How to Test a Website.
+Episode 5 - Merge
+1. Generative AI and Applications 🤖
+Overview of Generative AI: Understanding its core concepts and potential.
+Building an Authentication System Using ChatGPT , JWT , mongoDB and redis.
+Exploring Social Media Automation and Content Generation Projects.
+Introduction to LangChain: Features and Practical Uses.
+Developing Real-World Applications: AI-powered Resume Reviewer and Virtual Interview Assistant using tools like ChatGPT or Gemini.
+2. Progressive Web App (PWA) Development. 🛜
+Overview of Progressive Web Apps and their benefits.
+Understanding Service Workers and their role in PWA.
+Lifecycle of a Service Worker (Install, Activate, Fetch).
+Understanding the Manifest File.
+Creating a Manifest.json File.
+Key Properties (name, short_name, icons, start_url, theme_color, background_color)
+Browser DevTools for PWA Debugging .
+Implementing Lazy Loading and Code Splitting for improved performance.
+Exploring various testing techniques for PWAs.
+Optimizing performance with advanced caching strategies.
+3. DevOps Fundamentals - Docker and Kubernetes. 🐳
+Understanding DevOps and its importance in modern software development.
+Learning about Continuous Integration and Continuous Deployment (CI/CD) pipelines.
+Introduction to Docker and the basics of containerization.
+Exploring Kubernetes for container orchestration.
+Automating infrastructure setup using Terraform.
+4. Building Microservices with Node.js 🏘️
+What are Microservices? Why Use Them?
+Monolithic vs Microservices Architecture.
+Challenges of Microservices.
+Creating a Node.js Microservice.
+Designing a Microservice Architecture for a sample application.
+Role of package.json in Each Microservice.
+What is Inter-Service Communication?
+Communication Patterns (Synchronous vs Asynchronous).
+Role of an API Gateway in Microservices.
+Setting Up an API Gateway with Express.js .
+Microservices and Proxying Requests .
+Rate Limiting and Authentication in API Gateway.
+REST APIs for Communication
+Understanding Message Brokers (e.g., Redis Pub/Sub).
+Event-Driven Communication with Redis or RabbitMQ .
+OverView of Docker and Kubernetes .
+Using Docker for microservice.
+5. Web3 Basics. ₿
+Understanding the concept and potential of Web3.
+Fundamentals of Blockchain technology and how it powers Web3.
+Exploring Decentralized Applications (DApps) and their use cases.
+Introduction to Smart Contracts: How they work and their applications.
+Overview of Cryptocurrencies and their role in the Web3 ecosystem.
+6. Deployment ✈️
+We will be deploying the project on the cloud.
+Easy and Smart - We’ll DigitalOcean App Platform(in-built load-balancer, scalable, containers) for Deploying our app.
+Service providers give us a machine-like cloud [ AWS, GCP, Heroku, Azure ] but we’ll use AWS.
+Launching Our First Machine using EC2.
+Setting up the Machine - SSH.
+Pulling the code and clone the repository of the code to the main server.
+Configuring the NGINX.
+Masking the Domain On Our IP (We are now going to buy a new domain and Link it with cloud AWS).
+DSA with JavaScript
+1. Conditional Statements
+Understanding Conditional Statements
+Types of Conditional Statements if , if-else , if-else if , switch
+Making decisions in a program based on inputs or variables.
+Validating user data or input forms.
+Creating interactive menus or options in applications.
+2. Loops, Nested Loops, Pattern Programming
+Undertsanding the use of Loops.
+for loop.
+while loop.
+do-while loop.
+Understanding the Use of Nested Loops.
+Learning Pattern Programming - Pyramid patterns , right-angled triangles, and inverted triangles.
+Understanding Control Flow statement break and continue
+Learning how to set correct conditions to avoid getting stuck in infinite loops.
+Understand how to optimize nested loops for better performance and reduced time complexity.
+3. Array
+Understanding the use of Arrays.
+Basic Manipulations - insertion , deletion , updation
+Accessing Elements in Arrays .
+Traversing Elements in Arrays .
+Array Algorithms - Two Pointer Algorithm, Rotation Algorithms , Kadane’s Algorithm , etc
+4. Object-Oriented Programming (OOP) in JavaScript
+Understanding Object-Oriented Programming
+Learn how to define a class for creating objects.
+Understand how to instantiate objects from a class
+Learn how the constructor() function initializes an object when it's created.
+Understand how this refers to the current object in the context.
+Use this to access properties and methods within the same object.
+5. Strings in JavaScript
+Understanding Strings in JavaScript
+Learning String Manipulation Methods - concat() , slice(), substring() , replace(), replaceAll()
+Learning String Search and Check Operations - indexOf(), lastIndexOf() , includes(), startsWith(), endsWith()
+Learning String Transformations - toUpperCase(), toLowerCase() , trim()
+Learning String Splitting and Joining: - split() , join()
+Embed variables and expressions in strings using backticks ()`
+Learning Escape Characters - \n , \t , \’
+Algorithms on Strings - Reverse a String , Check for Palindrome , Find Longest Common Prefix , Character Frequency Count , Anagram Check
+6. Time and Space Complexity
+Understanding Time Complexity
+Understanding the Big-O Notation.
+Constant Time – O(1)
+Logarithmic Time – O(log n)
+Linear Time – O(n)
+Linearithmic Time – O(n log n)
+Quadratic Time – O(n²)
+Exponential Time – O(2ⁿ)
+Factorial Time – O(n!)
+Key Factors That Affect Complexity - Algorithm Design , Data Structure Choice , Problem Constraints
+Tips to Reduce Time Complexity - Avoid Nested Loops , Efficient Data Structures , Optimize Recursion , Divide and Conquer
+Understanding what is Recursion and its use case
+7. Math Problems and Algorithms
+Understanding Mathematical Operations and Their Applications
+Mathematical operations like (pow) (sqrt) and greatest common divisor (HCF) are essential in various problem-solving scenarios.
+8. Advanced Problems on Array
+Understanding Advanced Array Concepts
+Learning two-pointer approach ,
+Learning prefix sums
+Solving complex problems efficiently.
+Multi-Dimensional Arrays in JavaScript
+Working with Multi-Dimensional Arrays
+Key Operations on Multi-Dimensional Arrays
+Algorithms Using Multi-Dimensional Arrays
+Multi-Dimensional Arrays in Real-World Scenarios
+9. Sorting Algorithms ,Time complexity and their application
+Learning Bubble Sort
+Learning Selection Sort
+Learning Insertion Sort
+Learning Merge Sort
+Learning Quick Sort
+Learning Cyclic Sort
+10. Binary Search and Its Algorithms
+Binary Search on Sorted Arrays
+Variations of Binary Search
+Binary Search on Infinite Arrays
+Binary Search in Rotated Sorted Array
+Binary Search on 2D Matrix
+Real-World Use Cases of Binary Search
+11. Hashing (Set and Map) in JavaScript
+Understanding Hashing in JavaScript - s**et , map**
+Working with Set in JavaScript
+Methods in Set - add(value) , delete(value) , has(value) , clear() , size
+Working with Map in JavaScript
+Methods in Map - set(key, value) ,get(key) , delete(key) , has(key) , clear() , size
+Learning Algorithms Using Set & map
+12. Linked List in JavaScript
+Understanding Linked List - Data , Pointer
+Singly Linked List.
+Doubly Linked List.
+Circular Linked List.
+Creating a Node in Linked List:
+Building a Linked List:
+Traversing a Linked List:
+Operations on Linked Lists - Insertion , Deletion , Searching
+Algorithms Using Linked Lists
+13. Queue in JavaScript
+Implementation of Queue by Linked List and Array
+Working with Queues - Basic Queue , Circular Queue
+Operations on Queues - Enqueue , Dequeue , Peek , IsEmpty , Size
+Algorithms Using Queues
+Applications of Queues
+14. Stack in JavaScript
+Understanding Stacks in javaScript
+Implementation of Stack by Linked List and Array
+Working with Stacks
+Operations on Stacks - Push , Pop , Peek , IsEmpty , Size
+Algorithms Using Stacks
+Applications of Stacks
+15. Advanced Problems on Recursion and Backtracking
+Understanding Advanced Recursion and Backtracking
+Key Problems and Algorithms like N-Queens Problem,Sudoku Solver,Subset Sum,Word Search
+Optimizing Recursive Solutions with Backtracking
+Challenges with Recursion and Backtracking
+Applications of Recursion and Backtracking
+16. Tree
+Understanding Binary Trees
+Types of Binary Trees - Full Binary Tree , Complete Binary Tree , Perfect Binary Tree
+Key Terminology in Binary Trees - Node , Root , Leaf , Height of a Tree , Depth of a Node , Level of a Node
+Binary Tree Operations - Insertion , Deletion , Traversal , Searching
+Binary Tree Algorithms - Height , Diameter , LCA , Symmetry Check
+Applications of Binary Trees
+17. Binary Search Tree (BST):
+Understanding Binary Search Tree
+Properties of Binary Search Tree
+BST Operations -
+Binary Search Tree Algorithms
+Applications of Binary Search Tree
+Advantages of Binary Search Tree
+Aptitude and Reasoning
+Classic Chapters
+1. Percentage
+Learn tips and tricks for percentages.
+Solve basic, medium, and advanced questions.
+Practice MCQs to master percentages.
+2. Profit and Loss
+Concepts of Profit and loss
+Relationship between cost price, selling price, and mark-up price.
+Solve practical scenarios involving discounts, successive transactions.
+Sharpen your skills with MCQs to prepare for competitive exams.
+3. Simple Interest
+Master the formula for calculating simple interest.
+Differentiate between principal, interest rate, and time period.
+Solve case-based problems related to borrowing and lending.
+Practice MCQs for thorough preparation
+4. Compound Interest
+Understand the growth of investments and savings.
+Differentiate between simple interest and compound interest.
+Solve problems with annual, semi-annual, and quarterly compounding.
+Practice MCQs for preparation.
+5. Ratio and Proportion
+Grasp the basics of ratios.
+Solve problems on proportional relationships.
+Analyze scenarios involving scaling, sharing, and dividing quantities.
+Practice MCQs for preparation.
+Number Related Topics
+1. Number System
+Understand the classification of natural numbers, whole numbers, integers, rational numbers, and irrational numbers.
+Master divisibility rules, factors, multiples, and place value.
+Practice MCQs to improve understanding and problem-solving speed.
+2. HCF and LCM
+Learn techniques to find HCF and LCM.
+Understand their applications in scheduling and resource sharing.
+Solve word problems involving time, distance, and recurring patterns.
+Practice MCQs for competitive exam preparation.
+3. Average
+Understand averages and their significance.
+Solve problems on weighted averages, missing numbers, and group data.
+Apply averages in performance analysis and time management.
+Practice MCQs to enhance speed and accuracy.
+Speed Work and Time Related Topics
+1. Work and Time
+Understand the relationship between work, time, and efficiency.
+Solve problems involving individuals or groups working together.
+Analyze scenarios like alternating work schedules and work completion rates.
+Practice MCQs problems.
+2. Pipes and Cisterns
+Understand the analogy between pipes and work-time.
+Solve problems with multiple pipes working together or alternately.
+Address challenges like leaks or partial closure.
+Practice MCQs to improve your skills.
+3. Speed, Distance, and Time
+Master the formula: Speed = Distance / Time.
+Solve problems on relative speed, average speed, and varying speeds.
+Practice MCQs questions.
+4. Problems on Trains
+Calculate the time for a train to cross poles, platforms, or other trains.
+Apply relative speed in train-related problems.
+Solve problems with trains of different lengths and speeds.
+Practice MCQs questions.
+5. Boats and Streams
+Understand the impact of stream direction (upstream, downstream) on speed.
+Solve problems on relative speed and effective speed in flowing water.
+Analyze scenarios like rowing competitions or river crossings.
+Practice MCQs to test your understanding.
+Probability and Combinations
+1. Permutations and Combinations
+Understand the difference between permutations (arrangement) and combinations (selection).
+Learn key formulas and techniques for calculating arrangements and selections.
+Solve problems with factorials, repetition, and circular permutations.
+Practice MCQs to improve problem-solving skills.
+2. Probability
+Understand probability as a measure of likelihood.
+Learn formulas for calculating probability in events.
+Practice MCQs to improve proficiency.
+Progressions
+1. Arithmetic Progression (AP)
+Understand Arithmetic Progression with a constant difference.
+Derive formulas for general term (an) and sum of n terms (Sn).
+Apply AP in real-life problem solving.
+Solve problems on missing terms, specific terms, and sum of series.
+Practice MCQs and concept-based questions.
+2. Geometric Progression (GP)
+Understand Geometric Progression with a constant ratio.
+Solve problems on missing terms, specific terms, and sum of series.
+Miscellaneous Topics
+1. Calendar
+Understand days, months, leap years, and century years.
+Learn Odd Days concept and calculation for day of the week.
+Use key formulas to find the day for any given date.
+Solve problems on repeating calendar years and calendar-based tricks.
+Practice MCQs and scenario-based questions.
+2. Clocks
+Understand clock structure, minute hand, hour hand, and their movements.
+Solve angle problems between clock hands.
+Solve problems on overlaps, right angles, and opposite directions.
+Practice clock puzzles and time calculation problems.
+Practice MCQs and puzzle-based questions.
+Logical Reasoning
+1. Direction Sense
+Understand directions (North, South, East, West) and final direction after movements.
+Track movements and turns (right/left) to find final position.
+Solve problems with multiple directions and movement patterns.
+Practice MCQs for speed and accuracy.
+2. Blood Relation
+Identify relationships like father, mother, brother, sister.
+Analyze clues to trace family connections.
+Solve problems with family trees and complex relationships.
+Practice MCQs to improve deduction skills.
+3. Syllogism
+Understand logical reasoning and conclusion deduction.
+Break down premises to check conclusions.
+Work with All, Some, No premises.
+Solve MCQs to identify valid/invalid conclusions.
+4. Arrangements
+Learn to arrange people or objects based on conditions.
+Apply constraints like sitting together or specific positions.
+Solve problems with multiple arrangement conditions.
+Practice MCQs to strengthen understanding.
+5. Series
+Understand number sequences and identify next terms.
+Recognize patterns like arithmetic progressions, geometric progressions.
+Solve problems with varying series types and difficulty.
+Practice MCQs to improve pattern recognition.
+Verbal Reasoning
+1. Sentence Ordering
+Practice MCQs to improve sentence ordering skills.
+2. Error Identification
+Practice MCQs to sharpen error spotting and correction.
+3. Sentence Improvement
+Practice MCQs to improve sentence quality.
+
+
+Assignments:
+
+Project Exercises
+Project Exercise 1 :- Blog Website
+Topic Covered :- HTML
+Description :- Build a simple blog webpage that includes essential HTML elements like headings, paragraphs, unordered and ordered lists, links, and images. The page should start with a DOCTYPE declaration and include the <html>, <head>, and <body> tags
+Skills Covered :- HTML structure and embedding media.
+Project Exercise 2 :- Contact Us Form
+Topic Covered: HTML
+Description: Create a "Contact Us" form that includes input fields for name, email, phone number, and a message. The form should have a submit button, and the fields should have basic validation, such as ensuring the name, email, and phone number fields are required before submission. Use appropriate input types and attributes for each field to ensure the form is user-friendly and accessible.
+Skills Covered: Form creation, input elements, form validation, attributes.
+Project Exercise 3: Styling The Page
+Topic Covered: CSS.
+Description: Style the blog page created in Project Exercise 1 by applying CSS. Add background colors to sections, set text colors, and choose appropriate fonts. Use CSS properties to adjust text sizes, line heights, and font styles. Implement padding and margins to create spacing between elements, ensuring the layout is visually appealing and easy to read. Utilize CSS selectors and the box model to enhance the overall presentation of the page.
+Skills Covered: CSS styling, applying selectors, text formatting, using padding/margins, and understanding the box model for layout control.
+Project Exercise 4: Two-Column Layout with Flexbox
+Topic Covered: HTML, CSS
+Description: Design a two-column webpage layout using Flexbox. The page should include a header at the top, a sidebar on the left with a list of links, and a main content area on the right. The sidebar should be narrow, and the main content area should take up the remaining space.
+Skills Covered: Flexbox for layout management, creating a two-column structure, CSS positioning
+Project Exercise 5: Styling the Form
+Topic Covered: HTML, CSS
+Description: Enhance the "Contact Us" form created in Project Exercise 2 by applying CSS for better styling. Add hover effects to the submit button to improve user interaction, change the borders of input fields when they are focused, and refine the overall form layout with proper spacing and alignment. Use properties like border-radius for rounded corners, padding for inner spacing, and pseudo-classes like :hover and :focus for interactivity.
+Skills Covered: Advanced form styling, pseudo-classes (:hover, :focus), border-radius for rounded corners, and using padding to improve form aesthetics.
+Project Exercise 6: Responsive Photo Gallery with CSS Grid
+Topic Covered: HTML, CSS
+Description: Design a responsive photo gallery using CSS Grid. The gallery should display images of varying sizes in a grid layout, where the number of columns adjusts based on the screen size. Use media queries to ensure the layout is responsive and looks great on different devices, such as desktops, tablets, and mobiles. The gallery should adapt to different screen widths, adjusting the grid to display images in an optimal manner.
+Skills Covered: CSS Grid for layout management, media queries for responsiveness, and creating flexible, adaptive designs.
+Project Exercise 7: Change Background Color with JavaScript
+Topic Covered: JavaScript
+Description: Write a JavaScript script that changes the background color of the webpage when a button is clicked. The button should trigger a function that alters the background-color of the webpage. Use DOM manipulation to select the button element and apply an event listener for the click event.
+Skills Covered: Basic JavaScript syntax, functions, event handling, and DOM manipulation.
+Project Exercise 8: Dynamically Add List Items
+Topic Covered: HTML, CSS, JavaScript, DOM
+Description: Create a webpage with an unordered list and a button. When the button is clicked, use JavaScript to dynamically add new list items to the unordered list. The script should create a new list item element and append it to the list each time the button is clicked. Style the list and button using CSS for better presentation. Focus on DOM manipulation techniques like document.createElement() and appendChild() to achieve this functionality.
+Skills Covered: DOM manipulation, document.createElement(), appendChild(), event listeners, and DOM traversal for interacting with elements.
+Project Exercise 9: Simple Calculator
+Topic Covered: HTML, CSS, JavaScript
+Description: Build a simple calculator using HTML, CSS, and JavaScript. The calculator should have buttons for numbers (0-9), basic operators (+, -, *, /), and a display area to show the input and result. Use JavaScript to handle button clicks, perform calculations, and update the display. Style the calculator using CSS for a clean, user-friendly interface.
+Skills Covered: Creating forms and buttons, handling user input with JavaScript, basic arithmetic operations, DOM manipulation, and CSS styling for layout and responsiveness.
+Project Exercise 10: JavaScript Form Validation
+Topic Covered: JavaScript, HTML
+Description: Create a form that includes fields for name, email, and password. Write a JavaScript function to validate the form before submission. Ensure that the name field is not empty, the email follows a valid email format, and the password meets certain criteria (e.g., minimum length). If the validation fails, display an error message next to the respective field and prevent the form from being submitted. Style the form and error messages for clarity.
+Skills Covered: JavaScript form validation, regular expressions for email validation, handling form events, DOM manipulation, and displaying dynamic error messages.
+Project Exercise 11: To-Do List App with Event Handling
+Topic Covered: JavaScript, DOM
+Description: Build a simple to-do list application where users can add new tasks, mark them as complete, and remove tasks. Use JavaScript event listeners to handle interactions such as adding tasks when the user submits input, toggling task completion when clicked, and deleting tasks when a remove button is clicked. Dynamically update the DOM based on user actions to reflect the changes in the to-do list.
+Skills Covered: Event listeners, dynamic DOM manipulation, user interaction, and managing UI updates based on actions.
+Project Exercise 12: Button Animation with CSS Transitions
+Topic Covered: CSS. javascript ( optional )
+Description: Create a button that animates when clicked. Use CSS transitions to make the button grow when hovered over and shrink when clicked, providing smooth effects. Implement the animation using @keyframes and transition properties such as transform and scale. Ensure the animation is smooth and feels interactive for the user, with appropriate timing and easing functions.
+Skills Covered: CSS transitions, animations with @keyframes, transition properties like transform and scale, and smooth interactive effects.
+Project Exercise 13: JavaScript Object - Car Information
+Topic Covered: JavaScript.
+Description: Create a JavaScript object representing a car with properties such as make, model, and year. Display these properties dynamically in the browser by using document.write() or manipulating the DOM. Additionally, log the object to the console to showcase how to access and display object properties.
+Skills Covered: Working with JavaScript objects, understanding properties, methods, and how to log information to the console and display it on the web page.
+Project Exercise 14: Interactive Quiz App
+Topic Covered: HTML, CSS, JavaScript, DOM
+Description: Create a simple interactive quiz app that presents multiple-choice questions to the user. The user selects answers and submits the quiz. After submission, display the total score based on correct answers. Use JavaScript to handle user interactions, such as selecting answers and calculating the score. Manipulate the DOM to dynamically update the question and show the final score after submission.
+Skills Covered: DOM manipulation, event handling, JavaScript functions, conditionals for checking answers, and updating content dynamically.
+Project Exercise 15: Responsive Navbar
+Topic Covered: HTML, CSS
+Description: Design a responsive navigation bar that displays horizontal links on larger screens. When the screen size is reduced (e.g., mobile view), the navbar should transform into a hamburger menu. Use media queries to make the navbar responsive and flexbox for layout management. Ensure the hamburger menu is clickable, and when clicked, it displays the navigation links in a dropdown or slide-in style.
+Skills Covered: Media queries for responsiveness, flexbox for layout, positioning for menu items, and implementing responsive design techniques.
+Project Exercise 16: Image Slider
+Topic Covered: HTML, CSS, JavaScript, DOM.
+Description: Build an image slider that automatically cycles through a series of images every few seconds. Add next and previous buttons that allow users to manually navigate between images. Use JavaScript intervals to control the automatic image transition, and implement event listeners for the next/previous buttons. Apply CSS transitions for smooth image sliding effects. The slider should be responsive, adjusting to different screen sizes.
+Skills Covered: JavaScript intervals for automatic transitions, event listeners for navigation buttons, DOM manipulation for dynamic updates, and CSS transitions for smooth animations.
+Project Exercise 17: Countdown Timer
+Topic Covered: JavaScript, DOM
+Description: Create a countdown timer that starts from a specified time (e.g., 10 minutes) and counts down to zero. The timer should update every second and display the remaining time on the webpage. When the timer reaches zero, an alert should appear notifying the user that time is up. Use setInterval() to update the timer every second and clearInterval() to stop the countdown when it reaches zero.
+Skills Covered: setInterval() for periodic updates, clearInterval() for stopping the timer, time manipulation, and updating the DOM to display the countdown.
+Project Exercise 18: Custom Modal Popup
+Topic Covered: HTML, CSS, JavaScript
+Description: Create a custom modal popup that appears when a button is clicked. The modal should display a message or content and include a "close" button that hides the modal when clicked. Use JavaScript for event handling, such as showing the modal when the button is clicked and hiding it when the close button is clicked. Style the modal using CSS to ensure it is positioned correctly on the screen and is initially hidden.
+Skills Covered: DOM manipulation for showing and hiding the modal, event handling for button clicks, CSS positioning for the modal, and controlling visibility with CSS and JavaScript.
+Project Exercise 19: Local Storage To-Do App
+Topic Covered: HTML, CSS, JavaScript
+Description: Build a to-do list application that allows users to add, delete, and mark tasks as completed. The tasks should be stored in the browser's local storage, ensuring they persist even after the page is reloaded. Use JavaScript to handle the creation and deletion of tasks, update the DOM accordingly, and utilize the localStorage API to save tasks. When the page is refreshed, the tasks should be reloaded from local storage and displayed.
+Skills Covered: Using localStorage for persistent data storage, DOM manipulation to dynamically update the task list, and handling user input with event listeners.
+Project Exercise 20: Interactive Weather App
+Topic Covered: HTML, CSS, JavaScript, DOM
+Description: Build a weather app that fetches real-time weather data from a public API (such as OpenWeatherMap) and displays it in a user-friendly interface. The app should allow users to search for the weather by city name. Use the Fetch API to request data, handle the JSON response, and update the DOM with the weather information (e.g., temperature, humidity, and conditions). Include error handling for invalid city names or network issues.
+Skills Covered: Using the Fetch API to retrieve data, handling JSON responses, DOM manipulation to display the weather data, and implementing error handling for API requests.
+Project Exercise 21: Hello React - Your First React App
+Topic Covered: React
+Description: Set up a React development environment using Create React App or Vite. Build your first app that displays “Hello, React!” and learn about JSX by modifying the greeting message. Explore the Real DOM vs. Virtual DOM, install an additional package (e.g., react-icons), and understand the folder structure of a React project.
+Skills Covered: React setup, JSX syntax, Virtual DOM vs. Real DOM, NPM package usage, React project folder structure.
+Project Exercise 22: Movie Card Styling in React
+Topic Covered: React, CSS, TailwindCSS, Animation
+Description: Create a movie card component in React that displays movie information such as title, image, description, and rating. Style the card using inline styles and CSS modules. Integrate TailwindCSS to style elements like buttons and headers, and apply responsive design with media queries. Use conditional styling based on the movie's rating (e.g., change color or style for high vs. low ratings). Add an animated hover effect to the movie card using Framer Motion or GSAP for enhanced interactivity.
+Skills Covered: Inline styles, CSS modules, TailwindCSS, conditional styling, media queries, responsive design, animations with Framer Motion/GSAP.
+Project Exercise 23: Movie List with State and Props
+Topic Covered: React, State, Props
+Description: Create a functional component that receives data via props and displays it. Use the useState hook to manage and update the component's state dynamically. Render a list of movies or items using the map() method and allow for updates to the list through state changes. Create parameterized components that accept dynamic props, and implement event handling for interactions like button clicks or form submissions.
+Skills Covered: State management with useState, passing data via props, rendering dynamic lists with map(), parameterized components, event handling in React.
+Project Exercise 24: React Memory Game with Component Lifecycle
+Topic Covered: React, Component Lifecycle, Hooks
+Description: Build a memory game app using React where users match pairs of cards. Start by creating a class component and implement the componentDidMount method to initialize the game state. Then, refactor the component into a functional one and use the useEffect hook to handle side effects like shuffling the cards or checking for matches. Implement the mounting, updating, and unmounting of components when the game starts, and use useContext to share the game state (e.g., score, matched cards) across the app.
+Skills Covered: Component lifecycle, componentDidMount, useEffect hook, managing side effects, useContext for global state management, building interactive memory game logic.
+Project Exercise 25: Contact Card App with React Hooks
+Topic Covered: React, useState, useEffect, useContext, useMemo, useCallback, useRef, Custom Hooks.
+Description: Build a contact card app where users can enter contact details (name, phone number, email) into a form. When the user submits the form, the contact is added to a list and displayed on the screen. Use useState to manage the form inputs, useContext to share the list of contacts globally, and useEffect to manage any side effects (e.g., resetting the form after submission). Optimize performance with useMemo and useCallback. Use useRef to focus on the name input field when the form is loaded. Create a custom hook to manage form validation or fetch data if required.
+Skills Covered: useState, useEffect, useContext, useMemo, useCallback, useRef, creating custom hooks, managing global state with context, form handling, and dynamic list rendering.
+Project Exercise 26: Multi-Page Authentication App with React Router
+Topic Covered: React Router, Routing, useNavigate, LocalStorage.
+Description: Build a multi-page website with React Router that includes pages for Register, Login, and Home. Set up react-router-dom to navigate between these pages. Use a navigation bar (Navbar) for easy navigation. In the Register and Login pages, create forms for users to input their data, and validate the form data before submission. If the form data is correct, store the user's information in localStorage for authentication and navigate to the Home page. Implement basic form validation (e.g., check for valid email or password). Use useNavigate for programmatic navigation and handle conditional rendering based on whether the user is authenticated.
+Skills Covered: React Router setup, <Link> for navigation, useNavigate for programmatic navigation, form validation, localStorage for authentication, creating and handling dynamic routes, conditional rendering based on authentication state.
+Project Exercise 27: Money Management App with Redux
+Topic Covered: Redux, React-Redux, Redux Toolkit, Redux Thunk, State Management.
+Description: Build a money management application using Redux for state management. The app should allow users to perform credit and debit actions and maintain a transaction history with details such as time, date, and transaction type (credit/debit). Implement Redux in the app, creating a store, actions, and reducers to handle the credit and debit functionalities. Use react-redux to connect the Redux store to your React components. Optimize the Redux logic with Redux Toolkit for more efficient state management. Additionally, implement async actions using Redux Thunk to handle time-dependent actions (e.g., saving transaction details to an external database).
+Skills Covered: Redux state management, react-redux for connecting components to the store, Redux actions, reducers, Redux Toolkit for simplified logic, async actions with Redux Thunk, transaction history management.
+Project Exercise 28: Dynamic Login Form with Validation
+Topic Covered: React, Dynamic Forms, Validation, axios, Fetch API
+Description: Build a dynamic login form in React with fields for email and password. Implement two-way data binding using React's useState for the form inputs. Validate the inputs on the client side (e.g., check for a valid email format and ensure the password is not empty). On form submission, use axios or fetch to send the form data to a mock API endpoint. Display user feedback such as loading, success, or error based on the response from the mock API.
+Skills Covered: Two-way binding, client-side form validation, form submission with axios or fetch, managing form state with useState, displaying feedback (loading, success, error).
+Project Exercise 29: Optimizing TMDB Application Performance
+Topic Covered: React Performance, Code Splitting, Memoization, TMDB API, Chrome DevTools.
+Description: Build a movie discovery app using the free TMDB (The Movie Database) API and focus on optimizing its performance. Implement code splitting using React.lazy and Suspense to load components like movie lists and details only when needed, improving the app's initial load time. Use React.memo to prevent unnecessary re-renders of movie components. Cache expensive calculations, such as movie search results, with useMemo and useCallback to improve rendering efficiency. Use axios or fetch to make API calls to TMDB and display movie details dynamically. Analyze the performance of the app using Chrome DevTools and Lighthouse, and optimize the component structure for faster rendering.
+Skills Covered:
+Code splitting with React.lazy and Suspense
+Performance optimization with React.memo, useMemo, and useCallback
+Fetching data from TMDB API
+Performance analysis using Chrome DevTools and Lighthouse
+Optimizing rendering efficiency in React components
+Project Exercise 30: Building a Spotify-Like Song Streaming Application
+Topic Covered: Full-Stack React, React Router, Redux/Context API, API Integration, TailwindCSS, Performance Optimization, Deployment.
+Description: Build a complete song streaming application similar to Spotify using React. Store all song files in the public folder and provide functionalities like playing songs, pausing, skipping, and displaying song information. Implement routing with React Router to navigate between pages like the home page, song details, and playlists. Use Redux or Context API to manage global state for things like the current song, playlist, and user preferences. Integrate a mock API to fetch song metadata, and use TailwindCSS for a responsive and modern user interface. Optimize the app’s performance for smooth playback and deploy it to a hosting platform like Netlify or Vercel.
+Skills Covered:
+Full-stack React development
+React Router for navigation
+State management with Redux or Context API
+API integration for song metadata
+Responsive design with TailwindCSS and media queries
+Performance optimization for media handling
+Deployment to platforms like Netlify or Vercel
+Project Exercise 31: Hello World Backend
+Topic Covered: Running Node.js Script, CommonJS vs ES6 Modules.
+Description: Create a basic Node.js script that displays "Namaste Duniya" in the terminal. Write the script using both CommonJS (require) and ES6 module (import) syntax to understand their differences.
+Skills Covered:
+Node.js fundamentals
+Understanding CommonJS and ES6 module syntax
+Running Node.js scripts in the terminal
+Project Exercise 32: Basic File System Explorer
+Topic Covered: Core Modules (os, fs, path).
+Description: Build a Node.js script that explores the file system. The script should read and display all files and subdirectories within a specified directory using fs and path modules. Include the ability to handle errors (e.g., if the directory doesn't exist).
+Skills Covered:
+File system operations using fs
+Manipulating paths with path
+Error handling in Node.js
+Using core modules effectively
+Project Exercise 33: Simple HTTP Server
+Topic Covered: Creating a Server with Node.js.
+Description: Create a basic HTTP server using Node.js. The server should respond with "Hello, Browser!". Handle different routes and return appropriate status codes (e.g., 404 for unknown routes).
+Skills Covered:
+Building HTTP servers with Node.js
+Serving plain text and HTML responses
+Understanding and implementing HTTP status codes
+Routing and basic request handling
+Project Exercise 34: Routing in HTTP Servers
+Topic Covered: Routing and Status Codes.
+Description: Build an HTTP server in Node.js that handles routes for /home, /about, and a fallback route /404. Serve appropriate HTML content for each route and ensure the use of proper HTTP status codes (e.g., 200 for successful routes and 404 for missing routes).
+Skills Covered:
+Implementing routing in HTTP servers
+Handling HTTP status codes
+Serving static HTML content
+Error handling for undefined routes
+Project Exercise 35: Express.js Blog
+Topic Covered: Express.js Basics
+Description: Build a simple blog backend using Express.js. Implement CRUD (Create, Read, Update, Delete) functionality with endpoints like /add-post, /view-post/:id, /update-post/:id, and /delete-post/:id. Use an in-memory array to store blog posts for simplicity.
+Skills Covered:
+Setting up an Express server
+Creating and managing RESTful routes
+Handling HTTP methods (GET, POST, PUT, DELETE)
+Managing request parameters and body parsing
+Project Exercise 36: Serving Static Files
+Topic Covered: Express.js Static Middleware.
+Description: Use Express.js to serve a static folder containing assets like CSS, images, and JavaScript files. Create a basic homepage that uses these assets for styling and functionality. Ensure a proper folder structure for better organization.
+Skills Covered:
+Setting up and using express.static middleware
+Serving static assets (CSS, images, JS files)
+Organizing folder structures for web projects
+Building a simple homepage to utilize static files
+Project Exercise 37: Dynamic Website with EJS
+Topic Covered: Template Engine (EJS)
+Description: Create a dynamic webpage using EJS to display a list of user profiles. Add functionality to accept new profiles through a form and dynamically render the updated list.
+Skills Covered: EJS syntax, rendering dynamic data, working with forms.
+Project Exercise 38: Middleware in Action
+Topic Covered: Middleware in Express.js
+Description: Create an Express.js application that uses middleware to log request details (URL, HTTP method, and timestamp) for every request. Implement custom error-handling middleware to return a user-friendly message for invalid routes or errors.
+Skills Covered:
+Application-level middleware
+Request logging and debugging
+Error handling in Express.js.
+Project Exercise 39: File Upload System
+Topic Covered: Handling Files with Multer.
+Description: Create an Express.js backend that allows users to upload profile pictures. Use Multer for handling file uploads, validate file types (e.g., allow only images), and store them on the disk or in memory.
+Skills Covered:
+File upload handling with Multer.
+Validating file types and sizes.
+Using memory and disk storage options for uploads.
+Project Exercise 40: MongoDB Setup
+Topic Covered: MongoDB Basics.
+Description: Set up a MongoDB database (locally or on a cloud service like MongoDB Atlas). Use Mongoose to define a schema for a “books” collection with fields such as title, author, and genre. Connect your Node.js application to the database and add functionality to insert and retrieve book data.
+Skills Covered: Setting up MongoDB locally or on the cloud , Defining Mongoose schemas and models, Connecting Node.js to MongoDB.
+Project Exercise 41: REST API for Library Management
+Topic Covered: REST API Development.
+
+Description: Build a REST API for a library system using Express.js and MongoDB. Implement endpoints to perform CRUD operations:
+
+Add new books (POST /books).
+View all books or a specific book (GET /books or GET /books/:id).
+Update book details (PUT /books/:id).
+Delete a book (DELETE /books/:id).
+Test the API endpoints using Postman to ensure proper functionality.
+
+Skills Covered: Designing and implementing RESTful APIs .
+
+Project Exercise 42: Optimizing Search with Database Indexing
+Topic Covered: MongoDB Indexing.
+Description: Enhance your library management database by adding indexes to frequently queried fields like genre and author. Perform search operations using these indexed fields to demonstrate faster query results. Experiment with compound indexes (e.g., combining genre and author) and observe their impact on query performance.
+Skills Covered:
+Basics of indexing in MongoDB.
+Creating single-field and compound indexes.
+Optimizing and analyzing database queries.
+Project Exercise 43: Securing Users with Authentication
+Topic Covered: Authentication and Authorization.
+Description: Build a user authentication system where users can register and log in. Securely hash passwords using bcrypt during registration, and validate credentials during login. On successful login, generate and return a JWT (JSON Web Token) to the user. Use the JWT for session management and secure protected routes.
+Skills Covered:
+Password hashing with bcrypt .
+JWT creation and validation.
+Securing user data and routes.
+Authentication and authorization basics.
+Project Exercise 44: Real-Time Chat Room
+Topic Covered: WebSockets and Socket.io.
+Description: Create a real-time chat application that allows users to join specific chat rooms and exchange messages with other participants. Implement features like user connection/disconnection notifications and chat room management.
+Skills Covered:
+WebSocket communication with Socket.io
+Handling real-time events (e.g., message broadcasting, user activity)
+Managing multiple chat rooms
+Event-driven architecture in Node.js
+Project Exercise 45: Library API with Redis Caching
+Topic Covered: Redis Caching.
+Description: Optimize your library management API by implementing Redis caching for frequently requested data, such as the book list. Ensure the cache is invalidated whenever the data is updated to maintain consistency.
+Skills Covered:
+Setting up and connecting to Redis.
+Implementing caching mechanisms.
+Improving API response time.
+Cache invalidation strategies.
+Project Exercise 46: Centralized API Error Handler
+Topic Covered: Error Handling in Express.
+Description: Create a utility class for handling and standardizing errors across your API. Implement custom error-handling middleware in Express and use next() to pass errors through the middleware chain.
+Skills Covered:
+Centralized error management.
+Building custom error classes.
+Express middleware for error handling.
+Debugging and improving API reliability.
+Project Exercise 47: Build an AI-powered Resume Reviewer
+Topic Covered: Generative AI for Applications
+Description: Create a web application where users upload their resumes, and AI provides feedback for improvement. Use OpenAI APIs (or Gemini tools) for generating suggestions.
+Skills Covered: Working with AI APIs, file handling, NLP basics.
+Project Exercise 48: Social Media Post Automation
+Topic Covered: Social Media Automation with Generative AI
+Description: Build a tool that generates engaging captions for Instagram posts based on an input image or text.
+Skills Covered: Integrating Generative AI, understanding image-to-text models.
+Project Exercise 49: Virtual Interview Assistant
+Topic Covered: LangChain for Generative AI Applications
+Description: Develop a chatbot for virtual interviews using LangChain. The bot should ask questions based on a job profile and provide feedback on answers.
+Skills Covered: LangChain basics, conversational AI, integration with APIs.
+Project Exercise 50: Create a Basic PWA
+Topic Covered: Service Workers and Manifest.json
+Description: Convert a simple website into a PWA. Add a manifest file and implement a service worker for offline functionality.
+Skills Covered: PWA fundamentals, service worker lifecycle, manifest setup.
+Project Exercise 51: Implement Lazy Loading and Code Splitting
+Topic Covered: Performance Optimization in PWAs
+Description: Create a PWA that lazy loads images and splits code into smaller chunks for faster load times.
+Skills Covered: Lazy loading, code splitting, optimizing asset delivery.
+Project Exercise 52: Advanced Caching with Service Workers
+Topic Covered: Caching Strategies in PWAs
+Description: Build a news app that caches articles and serves them offline. Use strategies like Cache First and Network First.
+Skills Covered: Advanced caching, offline functionality, debugging with DevTools.
+Project Exercise 53: Build and Run a Docker Container
+Topic Covered: Docker Basics
+Description: Write a Dockerfile to containerize a simple Node.js application. Build a Docker image from the Dockerfile and run the application inside a Docker container. Test the app’s functionality from within the container.
+Skills Covered: Writing Dockerfiles, containerization, Docker CLI.
+Project Exercise 54: Orchestrate with Kubernetes
+Topic Covered: Kubernetes Basics.
+Description: Deploy a Node.js app with a MongoDB database using Kubernetes. Create YAML files for pods, services, and deployments. Use kubectl to manage the application, ensuring communication between the Node.js app and the database via a Kubernetes service.
+Skills Covered:
+Understanding Kubernetes architecture (Pods, Services, Deployments).
+Writing YAML configuration for Kubernetes.
+Managing resources using kubectl commands.
+Service orchestration for multi-container apps.
+Project Exercise 55: Automate with CI/CD
+Topic Covered: Automating Deployments.
+Description: Build a CI/CD pipeline using GitHub Actions to automate the building and deployment of a Docker container. Use Terraform to define and provision infrastructure, such as servers or cloud services, required for deployment.
+Skills Covered:
+Setting up CI/CD pipelines with GitHub Actions
+Writing Terraform scripts for infrastructure as code
+Automating Docker container builds and deployments
+Integrating infrastructure automation with deployment processes
+Project Exercise 56: Build Your First Microservice
+Topic Covered: Microservice Architecture.
+Description: Create a simple microservice using Node.js and Express. The microservice will handle a specific function, such as managing a “Product” entity, with endpoints for adding, retrieving, updating, and deleting products. Use MongoDB as the database.
+Skills Covered:
+Building microservices with Node.js and Express.
+Designing RESTful APIs
+CRUD operations with MongoDB
+Modular application structure for microservices
+Project Exercise 57: Build an API Gateway with Event-Driven Communication
+Topic Covered: API Gateway for Microservices & Redis Pub/Sub.
+Description: Create an API Gateway using Express.js to route requests to multiple microservices. Implement event-driven communication between these microservices using Redis Pub/Sub. For example, the API Gateway routes requests to an Order service, which then notifies a User service about a new order via Redis Pub/Sub. Add features like rate limiting and authentication at the API Gateway level for security.
+Skills Covered:
+API Gateway setup with Express.js.
+Proxying requests and routing.
+Redis Pub/Sub for inter-service communication.
+Event-driven architecture.
+Security features like authentication and rate limiting.
+Project Exercise 58: Deploy a Node.js App to AWS
+Topic Covered: Cloud Deployment.
+Description: Launch an AWS EC2 instance and set up the necessary environment for deploying a Node.js application. Configure NGINX as a reverse proxy to handle incoming traffic and link a custom domain to your app for seamless access.
+Skills Covered:
+Setting up AWS EC2 instances.
+Setting up AWS EC2 instances.
+Installing and running a Node.js app on the cloud.
+Configuring NGINX as a reverse proxy.
+Domain masking and DNS setup for custom domains.
+Project Exercise 59: Deploy with DigitalOcean App Platform
+Topic Covered: Simplified Deployment.
+Description: Deploy a multi-container application using DigitalOcean’s App Platform. Explore its simplicity by setting up services, and test scalability by configuring replicas for your app.
+Skills Covered:
+Deploying applications on DigitalOcean App Platform.
+Managing multi-container setups.
+Scaling applications by adding replicas.
+Monitoring application performance.
