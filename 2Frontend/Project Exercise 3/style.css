@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  padding: 20px 0 10px 0;
+}
+
+.navbar {
+  background-color: #338ad2;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    font-weight: bold;
+    padding: 0 10px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+main {
+  flex: 1;
+  margin: 20px auto;
+  width: 100%;
+
+  article {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    .article-header {
+      margin-bottom: 20px;
+    }
+
+    .top-hr {
+      border: 1px dashed #5e5e5e;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+
+    .img img {
+      width: 25%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .list {
+      padding: 10px 100px;
+    }
+
+    .list li {
+      margin-bottom: 10px;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+  }
+}
+
+.favorite-foods {
+  padding: 15px;
+  padding-left: 100px;
+  ul {
+    list-style-type: circle;
+    padding-left: 70px;
+  }
+  ol {
+    list-style-type: decimal;
+    padding-left: 70px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f1f1f1;
+  width: 100%;
+}
